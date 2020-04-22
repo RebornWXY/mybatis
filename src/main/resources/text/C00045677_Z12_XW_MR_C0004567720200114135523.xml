@@ -1,0 +1,4148 @@
+<?xml version="1.0" encoding="utf-8"?><UniversalInterchange xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Header>
+    <SenderID>DEWLAXPRD</SenderID>
+    <RecipientID>DEWELLLAX</RecipientID>
+  </Header>
+  <Body>
+    <UniversalTransaction xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+      <TransactionInfo>
+        <DataContext>
+          <DataSourceCollection>
+            <DataSource>
+              <Type>AccountingInvoice</Type>
+              <Key>AR INV 00002801</Key>
+            </DataSource>
+          </DataSourceCollection>
+
+          <ActionPurpose>
+            <Code>ART</Code>
+            <Description>AR TRANSACTION XML</Description>
+          </ActionPurpose>
+          <Company>
+            <Code>HKG</Code>
+            <Country>
+              <Code>HK</Code>
+              <Name>Hong Kong</Name>
+            </Country>
+            <Name>De Well Container Shipping Corp Ltd.</Name>
+          </Company>
+          <DataProvider>DEWPRDHKG</DataProvider>
+          <EnterpriseID>DEW</EnterpriseID>
+          <EventBranch>
+            <Code>HKG</Code>
+            <Name>De Well Container Shipping Corp Ltd.</Name>
+          </EventBranch>
+          <EventDepartment>
+            <Code>DOU</Code>
+            <Name>Corp Document</Name>
+          </EventDepartment>
+          <EventReference>AR|INV|Posted</EventReference>
+          <EventType>
+            <Code>ADD</Code>
+            <Description>Added a record to the system</Description>
+          </EventType>
+          <EventUser>
+            <Code>JR</Code>
+            <Name>June Ren</Name>
+          </EventUser>
+          <ServerID>PRD</ServerID>
+          <TriggerCount>1</TriggerCount>
+          <TriggerDate>2020-01-09T17:16:41.217</TriggerDate>
+          <TriggerDescription>SEND AR TRANSACTION XML</TriggerDescription>
+          <TriggerReference>!IsMatchingPattern("DEWELL*", Source.Header.OH_Code)</TriggerReference>
+          <TriggerType>Trigger</TriggerType>
+
+          <RecipientRoleCollection>
+            <RecipientRole>
+              <Code>ORP</Code>
+              <Description>Organisation Proxy</Description>
+            </RecipientRole>
+          </RecipientRoleCollection>
+        </DataContext>
+
+        <ARAccountGroup>
+          <Code>TPY</Code>
+          <Description>THIRD PARTY COMPANY</Description>
+        </ARAccountGroup>
+        <Branch>
+          <Code>HKG</Code>
+          <Name>De Well Container Shipping Corp Ltd.</Name>
+        </Branch>
+        <BranchAddress>
+          <AddressType>OFC</AddressType>
+          <Address1>RM 3 11/F, KENNING INDUSTRIAL BUILDING</Address1>
+          <Address2>19 WANG HOI ROAD, KOWLOON EAST</Address2>
+          <AddressOverride>false</AddressOverride>
+          <AddressShortCode>11/F WANG HOI ROAD</AddressShortCode>
+          <City>KOWLOON</City>
+          <CompanyName>DE WELL CONTAINER SHIPPING CORP LTD.</CompanyName>
+          <Country>
+            <Code>HK</Code>
+            <Name>Hong Kong</Name>
+          </Country>
+          <Email></Email>
+          <Fax></Fax>
+          <OrganizationCode>DEWELLHKG</OrganizationCode>
+          <Phone>+85223686680</Phone>
+          <Port>
+            <Code>HKHKG</Code>
+            <Name>Hong Kong</Name>
+          </Port>
+          <Postcode></Postcode>
+          <ScreeningStatus>
+            <Code>UNK</Code>
+            <Description>Unknown</Description>
+          </ScreeningStatus>
+          <State></State>
+
+          <RegistrationNumberCollection>
+            <RegistrationNumber>
+              <Type>
+                <Code>GCR</Code>
+              </Type>
+              <CountryOfIssue>
+                <Code>HK</Code>
+                <Name>Hong Kong</Name>
+              </CountryOfIssue>
+              <Value>63210099-000-11-16-9</Value>
+            </RegistrationNumber>
+          </RegistrationNumberCollection>
+        </BranchAddress>
+        <Category>DCU</Category>
+        <CheckDrawer></CheckDrawer>
+        <CheckNumberOrPaymentRef></CheckNumberOrPaymentRef>
+        <CreateTime>2020-01-09T09:16:00</CreateTime>
+        <CreateUser>JR</CreateUser>
+        <Department>
+          <Code>FES</Code>
+          <Name>Forwarding Export Sea</Name>
+        </Department>
+        <Description>SSNZS0006511</Description>
+        <DrawerBank></DrawerBank>
+        <DrawerBranch></DrawerBranch>
+        <DueDate>2020-01-09T17:16:00</DueDate>
+        <ExchangeRate>7.827300</ExchangeRate>
+        <InvoiceTerm>COD</InvoiceTerm>
+        <InvoiceTermDays>0</InvoiceTermDays>
+        <IsCancelled>false</IsCancelled>
+        <IsCreatedByMatchingProcess>false</IsCreatedByMatchingProcess>
+        <IsPrinted>false</IsPrinted>
+        <Job>
+          <Type>Job</Type>
+          <Key>SSNZS0006511</Key>
+        </Job>
+        <JobInvoiceNumber>SSNZS0006511/A</JobInvoiceNumber>
+        <Ledger>AR</Ledger>
+        <LocalCurrency>
+          <Code>HKD</Code>
+          <Description>Hong Kong Dollar</Description>
+        </LocalCurrency>
+        <LocalExVATAmount>26857.3400</LocalExVATAmount>
+        <LocalTotal>26857.3400</LocalTotal>
+        <LocalVATAmount>0.0000</LocalVATAmount>
+        <Number>00002801</Number>
+        <NumberOfSupportingDocuments>1</NumberOfSupportingDocuments>
+        <OrganizationAddress>
+          <AddressType>OFC</AddressType>
+          <Address1>UNIT 2209, 22F, WU CHENG HSE, 21</Address1>
+          <Address2></Address2>
+          <AddressOverride>false</AddressOverride>
+          <AddressShortCode>11/F., CAPITAL CENTRE,151</AddressShortCode>
+          <City>HONG KONG</City>
+          <CompanyName>MATCH LAND INTERNATIONAL LIMITED</CompanyName>
+          <Country>
+            <Code>CN</Code>
+            <Name>China</Name>
+          </Country>
+          <Email></Email>
+          <Fax></Fax>
+          <OrganizationCode>L-MATLANKWN</OrganizationCode>
+          <Phone></Phone>
+          <Port>
+            <Code>HKHKG</Code>
+            <Name>Hong Kong</Name>
+          </Port>
+          <Postcode></Postcode>
+          <ScreeningStatus>
+            <Code>NOT</Code>
+            <Description>Not Screened</Description>
+          </ScreeningStatus>
+          <State>91</State>
+
+          <RegistrationNumberCollection>
+            <RegistrationNumber>
+              <Type>
+                <Code>LSC</Code>
+              </Type>
+              <CountryOfIssue>
+                <Code>CN</Code>
+                <Name>China</Name>
+              </CountryOfIssue>
+              <Value>62842</Value>
+            </RegistrationNumber>
+            <RegistrationNumber>
+              <Type>
+                <Code>CBN</Code>
+              </Type>
+              <CountryOfIssue>
+                <Code>US</Code>
+                <Name>United States</Name>
+              </CountryOfIssue>
+              <Value>171704-11761</Value>
+            </RegistrationNumber>
+          </RegistrationNumberCollection>
+        </OrganizationAddress>
+        <OSCurrency>
+          <Code>USD</Code>
+          <Description>United States Dollar</Description>
+        </OSCurrency>
+        <OSExGSTVATAmount>3431.2400</OSExGSTVATAmount>
+        <OSGSTVATAmount>0.00</OSGSTVATAmount>
+        <OSTotal>3431.2400</OSTotal>
+        <OutstandingAmount>26857.3400</OutstandingAmount>
+        <PlaceOfIssue>Kowloon</PlaceOfIssue>
+        <PostDate>2020-01-09T17:16:00</PostDate>
+        <ReceiptOrDirectDebitNumber></ReceiptOrDirectDebitNumber>
+        <RequisitionStatus></RequisitionStatus>
+        <TransactionDate>2020-01-09T17:16:00</TransactionDate>
+        <TransactionType>INV</TransactionType>
+
+        <PostingJournalCollection>
+          <PostingJournal>
+            <Branch>
+              <Code>HKG</Code>
+              <Name>De Well Container Shipping Corp Ltd.</Name>
+            </Branch>
+            <ChargeCode>
+              <Code>DUTY</Code>
+              <Description>Duty</Description>
+            </ChargeCode>
+            <ChargeCurrency>
+              <Code>USD</Code>
+              <Description>United States Dollar</Description>
+            </ChargeCurrency>
+            <ChargeExchangeRate>7.827300000</ChargeExchangeRate>
+            <ChargeTotalAmount>3431.2400</ChargeTotalAmount>
+            <ChargeTotalExVATAmount>3431.2400</ChargeTotalExVATAmount>
+            <Department>
+              <Code>CES</Code>
+              <Name>Clearance Export Sea</Name>
+            </Department>
+            <Description>Duty</Description>
+            <GLAccount>
+              <AccountCode>1090.10.10</AccountCode>
+              <Description>DUTY CHARGED TO CLIENTS ACTUAL</Description>
+            </GLAccount>
+            <GLPostDate>2020-01-09T17:16:00</GLPostDate>
+            <IsFinalCharge>false</IsFinalCharge>
+            <Job>
+              <Type>Job</Type>
+              <Key>SSNZS0006511</Key>
+            </Job>
+            <JobRecognitionDate>2019-12-26T12:02:00</JobRecognitionDate>
+            <LocalAmount>26857.3400</LocalAmount>
+            <LocalCurrency>
+              <Code>HKD</Code>
+              <Description>Hong Kong Dollar</Description>
+            </LocalCurrency>
+            <LocalGSTVATAmount>0.0000</LocalGSTVATAmount>
+            <LocalTotalAmount>26857.3400</LocalTotalAmount>
+            <Organization>
+              <Type>Organization</Type>
+              <Key>L-MATLANKWN</Key>
+            </Organization>
+            <OSAmount>3431.24</OSAmount>
+            <OSCurrency>
+              <Code>USD</Code>
+              <Description>United States Dollar</Description>
+            </OSCurrency>
+            <OSGSTVATAmount>0.00</OSGSTVATAmount>
+            <OSTotalAmount>3431.2400</OSTotalAmount>
+            <RevenueRecognitionType>FAR</RevenueRecognitionType>
+            <Sequence>10</Sequence>
+            <TransactionCategory>DCU</TransactionCategory>
+            <TransactionType>REV</TransactionType>
+
+            <PostingJournalDetailCollection>
+              <PostingJournalDetail>
+                <CreditGLAccount>
+                  <AccountCode>6215.00.00</AccountCode>
+                  <Description>REVENUE SUSPENSE CONTROL ACCOUNT</Description>
+                </CreditGLAccount>
+                <DebitGLAccount>
+                  <AccountCode>6210.00.00</AccountCode>
+                  <Description>TRADE DEBTORS CONTROL</Description>
+                </DebitGLAccount>
+                <PostingAmount>26857.3400</PostingAmount>
+                <PostingCurrency>
+                  <Code>HKD</Code>
+                  <Description>Hong Kong Dollar</Description>
+                </PostingCurrency>
+                <PostingDate>2020-01-09T17:16:00</PostingDate>
+                <PostingPeriod>202001</PostingPeriod>
+              </PostingJournalDetail>
+              <PostingJournalDetail>
+                <CreditGLAccount>
+                  <AccountCode>1090.10.10</AccountCode>
+                  <Description>DUTY CHARGED TO CLIENTS ACTUAL</Description>
+                </CreditGLAccount>
+                <DebitGLAccount>
+                  <AccountCode>6215.00.00</AccountCode>
+                  <Description>REVENUE SUSPENSE CONTROL ACCOUNT</Description>
+                </DebitGLAccount>
+                <PostingAmount>26857.3400</PostingAmount>
+                <PostingCurrency>
+                  <Code>HKD</Code>
+                  <Description>Hong Kong Dollar</Description>
+                </PostingCurrency>
+                <PostingDate>2019-12-26T12:02:00</PostingDate>
+                <PostingPeriod>201912</PostingPeriod>
+              </PostingJournalDetail>
+            </PostingJournalDetailCollection>
+          </PostingJournal>
+        </PostingJournalCollection>
+
+        <ShipmentCollection>
+          <Shipment>
+            <DataContext>
+              <DataSourceCollection>
+                <DataSource>
+                  <Type>ForwardingConsol</Type>
+                  <Key>C00043659</Key>
+                </DataSource>
+                <DataSource>
+                  <Type>ForwardingShipment</Type>
+                  <Key>SSNZS0006511</Key>
+                </DataSource>
+              </DataSourceCollection>
+            </DataContext>
+
+            <AgentsReference></AgentsReference>
+            <AWBServiceLevel>
+              <Code>STD</Code>
+              <Description>Standard</Description>
+            </AWBServiceLevel>
+            <BookingConfirmationReference>181BY19D0200657P1</BookingConfirmationReference>
+            <ChargeableRate>0.0000</ChargeableRate>
+            <ContainerCount>1</ContainerCount>
+            <ContainerMode>
+              <Code>FCL</Code>
+              <Description>Full Container Load</Description>
+            </ContainerMode>
+            <DocumentedChargeable>64.04</DocumentedChargeable>
+            <DocumentedVolume>64.04</DocumentedVolume>
+            <DocumentedWeight>8298.61</DocumentedWeight>
+            <FreightRate>0.0000</FreightRate>
+            <FreightRateCurrency>
+              <Code>HKD</Code>
+              <Description>Hong Kong Dollar</Description>
+            </FreightRateCurrency>
+            <IsCFSRegistered>false</IsCFSRegistered>
+            <IsDirectBooking>false</IsDirectBooking>
+            <IsForwardRegistered>true</IsForwardRegistered>
+            <IsNeutralMaster>false</IsNeutralMaster>
+            <LloydsIMO>9399026</LloydsIMO>
+            <ManifestedChargeable>64.04</ManifestedChargeable>
+            <ManifestedVolume>64.04</ManifestedVolume>
+            <ManifestedWeight>8298.61</ManifestedWeight>
+            <NoCopyBills>3</NoCopyBills>
+            <NoOriginalBills>3</NoOriginalBills>
+            <OuterPacks>0</OuterPacks>
+            <PaymentMethod>
+              <Code>PPD</Code>
+              <Description>Prepaid</Description>
+            </PaymentMethod>
+            <PlaceOfDelivery>
+              <Code>USDAL</Code>
+              <Name>Dallas</Name>
+            </PlaceOfDelivery>
+            <PlaceOfIssue>
+              <Code>CNYTN</Code>
+              <Name>Yantian</Name>
+            </PlaceOfIssue>
+            <PlaceOfReceipt>
+              <Code>CNYTN</Code>
+              <Name>Yantian</Name>
+            </PlaceOfReceipt>
+            <PortFirstForeign>
+              <Code></Code>
+            </PortFirstForeign>
+            <PortLastForeign>
+              <Code>CNXMN</Code>
+              <Name>Xiamen</Name>
+            </PortLastForeign>
+            <PortOfDischarge>
+              <Code>USDAL</Code>
+              <Name>Dallas</Name>
+            </PortOfDischarge>
+            <PortOfFirstArrival>
+              <Code></Code>
+            </PortOfFirstArrival>
+            <PortOfLoading>
+              <Code>CNYTN</Code>
+              <Name>Yantian</Name>
+            </PortOfLoading>
+            <ReleaseType>
+              <Code>OBR</Code>
+              <Description>Original Bill Required at Destination</Description>
+            </ReleaseType>
+            <ScreeningStatus>
+              <Code>NOT</Code>
+              <Description>Not Screened</Description>
+            </ScreeningStatus>
+            <ShipmentType>
+              <Code>AGT</Code>
+              <Description>Agent</Description>
+            </ShipmentType>
+            <TotalNoOfPacks>2629</TotalNoOfPacks>
+            <TotalNoOfPacksPackageType>
+              <Code>PKG</Code>
+              <Description>Package</Description>
+            </TotalNoOfPacksPackageType>
+            <TotalPreallocatedChargeable>0.000</TotalPreallocatedChargeable>
+            <TotalPreallocatedVolume>0.000</TotalPreallocatedVolume>
+            <TotalPreallocatedVolumeUnit>
+              <Code></Code>
+            </TotalPreallocatedVolumeUnit>
+            <TotalPreallocatedWeight>0.000</TotalPreallocatedWeight>
+            <TotalPreallocatedWeightUnit>
+              <Code></Code>
+            </TotalPreallocatedWeightUnit>
+            <TotalVolume>64.04</TotalVolume>
+            <TotalVolumeUnit>
+              <Code>M3</Code>
+              <Description>Cubic Metres</Description>
+            </TotalVolumeUnit>
+            <TotalWeight>8298.61</TotalWeight>
+            <TotalWeightUnit>
+              <Code>KG</Code>
+              <Description>Kilograms</Description>
+            </TotalWeightUnit>
+            <TransportMode>
+              <Code>SEA</Code>
+              <Description>Sea Freight</Description>
+            </TransportMode>
+            <VesselName>MSC KALINA</VesselName>
+            <VoyageFlightNo>QH951N</VoyageFlightNo>
+            <WayBillNumber>MEDUH4252407</WayBillNumber>
+            <WayBillType>
+              <Code>MWB</Code>
+              <Description>Master Waybill</Description>
+            </WayBillType>
+
+            <AdditionalReferenceCollection Content="Complete">
+              <AdditionalReference>
+                <Type>
+                  <Code>CON</Code>
+                  <Description>Carrier Contract Number</Description>
+                </Type>
+                <ReferenceNumber>19-088TPC-772</ReferenceNumber>
+                <ContextInformation></ContextInformation>
+                <IssueDate></IssueDate>
+              </AdditionalReference>
+              <AdditionalReference>
+                <Type>
+                  <Code>EPN</Code>
+                  <Description>Express Number</Description>
+                </Type>
+                <ReferenceNumber>FedEx# 7793 3444 9880</ReferenceNumber>
+                <ContextInformation></ContextInformation>
+                <IssueDate></IssueDate>
+              </AdditionalReference>
+              <AdditionalReference>
+                <Type>
+                  <Code>IT</Code>
+                  <Description>Inbond Transit (IT) Number</Description>
+                </Type>
+                <ReferenceNumber>CANCELLED</ReferenceNumber>
+                <ContextInformation></ContextInformation>
+                <IssueDate></IssueDate>
+              </AdditionalReference>
+            </AdditionalReferenceCollection>
+
+            <ContainerCollection Content="Complete">
+              <Container>
+                <AirVentFlow>0.0</AirVentFlow>
+                <AirVentFlowRateUnit>
+                  <Code></Code>
+                </AirVentFlowRateUnit>
+                <ArrivalCartageAdvised>2020-01-07T12:26:00</ArrivalCartageAdvised>
+                <ArrivalCartageComplete></ArrivalCartageComplete>
+                <ArrivalCartageDemurrageCharge>0.0000</ArrivalCartageDemurrageCharge>
+                <ArrivalCartageDemurrageTime></ArrivalCartageDemurrageTime>
+                <ArrivalCartageRef></ArrivalCartageRef>
+                <ArrivalDeliveryRequiredBy></ArrivalDeliveryRequiredBy>
+                <ArrivalEstimatedDelivery></ArrivalEstimatedDelivery>
+                <ArrivalPickupByRail>false</ArrivalPickupByRail>
+                <ArrivalSlotDateTime></ArrivalSlotDateTime>
+                <ArrivalSlotReference></ArrivalSlotReference>
+                <Commodity>
+                  <Code></Code>
+                </Commodity>
+                <ContainerCount>1</ContainerCount>
+                <ContainerDetentionCharge>0.0000</ContainerDetentionCharge>
+                <ContainerDetentionDays>0</ContainerDetentionDays>
+                <ContainerImportDORelease></ContainerImportDORelease>
+                <ContainerNumber>MEDU8274525</ContainerNumber>
+                <ContainerParkEmptyPickupGateOut>2019-12-15T23:02:00</ContainerParkEmptyPickupGateOut>
+                <ContainerParkEmptyReturnGateIn></ContainerParkEmptyReturnGateIn>
+                <ContainerQuality>
+                  <Code></Code>
+                </ContainerQuality>
+                <ContainerStatus>
+                  <Code></Code>
+                </ContainerStatus>
+                <ContainerType>
+                  <Code>40HC</Code>
+                  <Category>
+                    <Code>DRY</Code>
+                    <Description>Dry Storage</Description>
+                  </Category>
+                  <Description>Forty foot high cube</Description>
+                  <ISOCode>45G0</ISOCode>
+                </ContainerType>
+                <DeliveryMode>CY/CY</DeliveryMode>
+                <DeliverySequence>0</DeliverySequence>
+                <DepartureCartageAdvised></DepartureCartageAdvised>
+                <DepartureCartageComplete></DepartureCartageComplete>
+                <DepartureCartageDemurrageCharge>0.0000</DepartureCartageDemurrageCharge>
+                <DepartureCartageDemurrageTime></DepartureCartageDemurrageTime>
+                <DepartureCartageRef></DepartureCartageRef>
+                <DepartureDeliveryByRail>false</DepartureDeliveryByRail>
+                <DepartureDockReceipt></DepartureDockReceipt>
+                <DepartureEstimatedPickup></DepartureEstimatedPickup>
+                <DepartureSlotDateTime></DepartureSlotDateTime>
+                <DepartureSlotReference></DepartureSlotReference>
+                <DunnageWeight>0.000</DunnageWeight>
+                <EmptyReadyForReturn></EmptyReadyForReturn>
+                <EmptyRequired></EmptyRequired>
+                <EmptyReturnedBy></EmptyReturnedBy>
+                <EmptyReturnRef></EmptyReturnRef>
+                <ExportDepotCustomsReference></ExportDepotCustomsReference>
+                <FCL_LCL_AIR>
+                  <Code>FCL</Code>
+                  <Description>Full Container Load</Description>
+                </FCL_LCL_AIR>
+                <FCLAvailable></FCLAvailable>
+                <FCLHeldInTransitStaging>false</FCLHeldInTransitStaging>
+                <FCLOnBoardVessel>2019-12-23T14:43:00</FCLOnBoardVessel>
+                <FCLStorageArrivedUnderbond>false</FCLStorageArrivedUnderbond>
+                <FCLStorageCharge>0.0000</FCLStorageCharge>
+                <FCLStorageCommences></FCLStorageCommences>
+                <FCLStorageDays>0</FCLStorageDays>
+                <FCLStorageModuleOnlyMaster></FCLStorageModuleOnlyMaster>
+                <FCLStorageUnderbondCleared></FCLStorageUnderbondCleared>
+                <FCLUnloadFromVessel></FCLUnloadFromVessel>
+                <FCLWharfGateIn>2019-12-16T20:04:00</FCLWharfGateIn>
+                <FCLWharfGateOut></FCLWharfGateOut>
+                <GoodsValue>0.0000</GoodsValue>
+                <GoodsValueCurrency>
+                  <Code></Code>
+                </GoodsValueCurrency>
+                <GoodsWeight>8298.61</GoodsWeight>
+                <GrossWeight>12278.610</GrossWeight>
+                <GrossWeightVerificationType>
+                  <Code>NON</Code>
+                  <Description>Not Verified</Description>
+                </GrossWeightVerificationType>
+                <HumidityPercent>0</HumidityPercent>
+                <IsCFSRegistered>false</IsCFSRegistered>
+                <IsControlledAtmosphere>false</IsControlledAtmosphere>
+                <IsDamaged>false</IsDamaged>
+                <IsEmptyContainer>false</IsEmptyContainer>
+                <IsSealOk>true</IsSealOk>
+                <IsShipperOwned>false</IsShipperOwned>
+                <LCLAvailable></LCLAvailable>
+                <LCLStorageCommences></LCLStorageCommences>
+                <LCLUnpack></LCLUnpack>
+                <LengthUnit>
+                  <Code>FT</Code>
+                  <Description>Feet</Description>
+                </LengthUnit>
+                <Link>1</Link>
+                <OverhangBack>0.000</OverhangBack>
+                <OverhangFront>0</OverhangFront>
+                <OverhangHeight>0</OverhangHeight>
+                <OverhangLeft>0</OverhangLeft>
+                <OverhangRight>0.000</OverhangRight>
+                <OverrideFCLAvailableStorage>false</OverrideFCLAvailableStorage>
+                <OverrideLCLAvailableStorage>false</OverrideLCLAvailableStorage>
+                <PackDate></PackDate>
+                <RefrigGeneratorID></RefrigGeneratorID>
+                <ReleaseNum></ReleaseNum>
+                <Seal>FJ08457177</Seal>
+                <SealPartyType>
+                  <Code></Code>
+                </SealPartyType>
+                <SecondSeal></SecondSeal>
+                <SecondSealPartyType>
+                  <Code></Code>
+                </SecondSealPartyType>
+                <SetPointTemp>0.000</SetPointTemp>
+                <SetPointTempUnit></SetPointTempUnit>
+                <StowagePosition></StowagePosition>
+                <TareWeight>3980.000</TareWeight>
+                <TempRecorderSerialNo></TempRecorderSerialNo>
+                <ThirdSeal></ThirdSeal>
+                <ThirdSealPartyType>
+                  <Code></Code>
+                </ThirdSealPartyType>
+                <TotalHeight>9.500</TotalHeight>
+                <TotalLength>40.000</TotalLength>
+                <TotalWidth>8.000</TotalWidth>
+                <TrainWagonNumber></TrainWagonNumber>
+                <UnpackGang></UnpackGang>
+                <UnpackShed></UnpackShed>
+                <VolumeCapacity>0.000</VolumeCapacity>
+                <VolumeUnit>
+                  <Code>M3</Code>
+                  <Description>Cubic Metres</Description>
+                </VolumeUnit>
+                <WeightCapacity>0.000</WeightCapacity>
+                <WeightUnit>
+                  <Code>KG</Code>
+                  <Description>Kilograms</Description>
+                </WeightUnit>
+
+                <MilestoneCollection>
+                  <Milestone>
+                    <Description>Empty Container Released</Description>
+                    <EventCode>GOU</EventCode>
+                    <Sequence>10</Sequence>
+                    <ActualDate>2019-12-15T23:02:00</ActualDate>
+                    <ConditionReference>FAC=CY</ConditionReference>
+                    <ConditionType>RFP</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>Full Container Picked Up</Description>
+                    <EventCode>PUP</EventCode>
+                    <Sequence>30</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference></ConditionReference>
+                    <ConditionType></ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>Gated In at Load Port/Terminal</Description>
+                    <EventCode>GIN</EventCode>
+                    <Sequence>50</Sequence>
+                    <ActualDate>2019-12-16T20:04:00</ActualDate>
+                    <ConditionReference>FAC=CTO</ConditionReference>
+                    <ConditionType>RFP</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>Loaded on Board</Description>
+                    <EventCode>FLO</EventCode>
+                    <Sequence>70</Sequence>
+                    <ActualDate>2019-12-23T14:43:00</ActualDate>
+                    <ConditionReference>FAC=CTO</ConditionReference>
+                    <ConditionType>RFP</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>In transshipment</Description>
+                    <EventCode>STU</EventCode>
+                    <Sequence>90</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>DEP=Carrier,TYP=In transshipment</ConditionReference>
+                    <ConditionType>RFP</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>MAKE AN APPOINTMENT WITH WAREHOUSE</Description>
+                    <EventCode>Z79</EventCode>
+                    <Sequence>490</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference></ConditionReference>
+                    <ConditionType></ConditionType>
+                    <EstimatedDate>2020-01-05T06:00:00</EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>CONTAINER UNLOAD FROM VESSEL</Description>
+                    <EventCode>FUL</EventCode>
+                    <Sequence>510</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>FAC=CTO</ConditionReference>
+                    <ConditionType>RFP</ConditionType>
+                    <EstimatedDate>2020-01-04T06:00:00</EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>CONTAINER READY FOR PICK UP</Description>
+                    <EventCode>CAV</EventCode>
+                    <Sequence>520</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference></ConditionReference>
+                    <ConditionType></ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>TERMINAL APPOINTMENT DATE</Description>
+                    <EventCode>Z80</EventCode>
+                    <Sequence>525</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference></ConditionReference>
+                    <ConditionType></ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>TERMINAL LFD DEMURRAGE</Description>
+                    <EventCode>Z77</EventCode>
+                    <Sequence>530</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference></ConditionReference>
+                    <ConditionType>MCR</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>CARRIER LFD DEMURRAGE</Description>
+                    <EventCode>Z78</EventCode>
+                    <Sequence>540</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference></ConditionReference>
+                    <ConditionType></ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>CONTAINER LFD DEMURRAGE</Description>
+                    <EventCode>Z72</EventCode>
+                    <Sequence>550</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference></ConditionReference>
+                    <ConditionType></ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>CONTAINER PICKED UP</Description>
+                    <EventCode>GOU</EventCode>
+                    <Sequence>560</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>FAC=CTO</ConditionReference>
+                    <ConditionType>RFP</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>MBL CONTIANER LFD PER DIEM</Description>
+                    <EventCode>Z73</EventCode>
+                    <Sequence>570</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference></ConditionReference>
+                    <ConditionType></ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>HBL CONTAINER LFD PER DIEM</Description>
+                    <EventCode>Z75</EventCode>
+                    <Sequence>580</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference></ConditionReference>
+                    <ConditionType></ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>MBL CHASSIS LFD PER DIEM</Description>
+                    <EventCode>Z74</EventCode>
+                    <Sequence>590</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference></ConditionReference>
+                    <ConditionType></ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>HBL CHASSIS LFD PER DIEM</Description>
+                    <EventCode>Z76</EventCode>
+                    <Sequence>600</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference></ConditionReference>
+                    <ConditionType></ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>RAIL DETENTION</Description>
+                    <EventCode>Z82</EventCode>
+                    <Sequence>605</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference></ConditionReference>
+                    <ConditionType></ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>Freight Loaded on Rail</Description>
+                    <EventCode>FLO</EventCode>
+                    <Sequence>610</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>*On Rail*FAC=CTO*</ConditionReference>
+                    <ConditionType>RFW</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>Gate In Initial Rail Terminal</Description>
+                    <EventCode>GIN</EventCode>
+                    <Sequence>620</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>FAC=CTO,LOC=&lt;SightingCity&gt; &lt;SightingState&gt;</ConditionReference>
+                    <ConditionType>RFP</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>In-transit Rail Terminal</Description>
+                    <EventCode>ARV</EventCode>
+                    <Sequence>630</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>FAC=In-transit Rail Terminal,LOC=&lt;SightingCity&gt; &lt;SightingState&gt;</ConditionReference>
+                    <ConditionType>RFP</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>Held on Rail</Description>
+                    <EventCode>SHL</EventCode>
+                    <Sequence>640</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>LOC=&lt;SightingCity&gt; &lt;SightingState&gt;</ConditionReference>
+                    <ConditionType>RFP</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>Released on Rail</Description>
+                    <EventCode>RLS</EventCode>
+                    <Sequence>650</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>LOC=&lt;SightingCity&gt; &lt;SightingState&gt;</ConditionReference>
+                    <ConditionType>RFP</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>Rail Freight Unloaded</Description>
+                    <EventCode>FUL</EventCode>
+                    <Sequence>660</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>*Rail*FAC=CTO*</ConditionReference>
+                    <ConditionType>RFW</ConditionType>
+                    <EstimatedDate>2020-01-05T06:00:00</EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>CONTAINER DELIVERED</Description>
+                    <EventCode>DLV</EventCode>
+                    <Sequence>680</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference></ConditionReference>
+                    <ConditionType></ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>CONTAINER READY FOR EMPTY RETURN</Description>
+                    <EventCode>CRE</EventCode>
+                    <Sequence>690</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference></ConditionReference>
+                    <ConditionType></ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>EMPTY PICKUP DATE</Description>
+                    <EventCode>Z81</EventCode>
+                    <Sequence>695</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference></ConditionReference>
+                    <ConditionType></ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>EMPTY CONTAINER RETURNED</Description>
+                    <EventCode>DHR</EventCode>
+                    <Sequence>700</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>FAC=CY</ConditionReference>
+                    <ConditionType>RFP</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>POD RECEIVED</Description>
+                    <EventCode>DDI</EventCode>
+                    <Sequence>710</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>IsMatchingPattern("POD*", Event.Reference) &amp;&amp; Source.JobDirection != "Export"</ConditionReference>
+                    <ConditionType>MCR</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                </MilestoneCollection>
+              </Container>
+            </ContainerCollection>
+
+            <CustomizedFieldCollection>
+              <CustomizedField>
+                <DataType>String</DataType>
+                <Key>C-Cancel IT Status</Key>
+                <Value>NON</Value>
+              </CustomizedField>
+              <CustomizedField>
+                <DataType>String</DataType>
+                <Key>Complete Packing</Key>
+                <Value>Y</Value>
+              </CustomizedField>
+              <CustomizedField>
+                <DataType>String</DataType>
+                <Key>EDI Receiver</Key>
+                <Value>GT NEXUS</Value>
+              </CustomizedField>
+              <CustomizedField>
+                <DataType>String</DataType>
+                <Key>MSC Service</Key>
+                <Value>PEARL</Value>
+              </CustomizedField>
+              <CustomizedField>
+                <DataType>String</DataType>
+                <Key>Naming Account</Key>
+                <Value>SHENZHEN RUIBO MING TRADING</Value>
+              </CustomizedField>
+              <CustomizedField>
+                <DataType>String</DataType>
+                <Key>On Board</Key>
+                <Value>READY</Value>
+              </CustomizedField>
+              <CustomizedField>
+                <DataType>DateTime</DataType>
+                <Key>Run Operational Actions</Key>
+                <Value>2019-12-19T00:00:00</Value>
+              </CustomizedField>
+              <CustomizedField>
+                <DataType>String</DataType>
+                <Key>AMS Status</Key>
+                <Value></Value>
+              </CustomizedField>
+              <CustomizedField>
+                <DataType>String</DataType>
+                <Key>Filing AMS</Key>
+                <Value></Value>
+              </CustomizedField>
+              <CustomizedField>
+                <DataType>String</DataType>
+                <Key>C-HS CODE</Key>
+                <Value></Value>
+              </CustomizedField>
+              <CustomizedField>
+                <DataType>String</DataType>
+                <Key>OTH-MBL NO</Key>
+                <Value></Value>
+              </CustomizedField>
+              <CustomizedField>
+                <DataType>String</DataType>
+                <Key>OTH-CARRIER REF NO</Key>
+                <Value></Value>
+              </CustomizedField>
+              <CustomizedField>
+                <DataType>String</DataType>
+                <Key>SC NO</Key>
+                <Value></Value>
+              </CustomizedField>
+              <CustomizedField>
+                <DataType>DateTime</DataType>
+                <Key>M-FREIGHT RELEASE</Key>
+                <Value></Value>
+              </CustomizedField>
+              <CustomizedField>
+                <DataType>String</DataType>
+                <Key>Operational Actions Remarks</Key>
+                <Value></Value>
+              </CustomizedField>
+            </CustomizedFieldCollection>
+
+            <DateCollection>
+              <Date>
+                <Type>ShippedOnBoard</Type>
+                <IsEstimate>false</IsEstimate>
+                <Value></Value>
+              </Date>
+              <Date>
+                <Type>BillIssued</Type>
+                <IsEstimate>false</IsEstimate>
+                <Value>2019-12-31T00:00:00</Value>
+              </Date>
+              <Date>
+                <Type>FirstArrivalInCountry</Type>
+                <IsEstimate>false</IsEstimate>
+                <Value></Value>
+              </Date>
+              <Date>
+                <Type>FirstForeignArrival</Type>
+                <IsEstimate>false</IsEstimate>
+                <Value></Value>
+              </Date>
+              <Date>
+                <Type>LastForeignDeparture</Type>
+                <IsEstimate>false</IsEstimate>
+                <Value></Value>
+              </Date>
+              <Date>
+                <Type>CutOffDate</Type>
+                <IsEstimate>false</IsEstimate>
+                <Value></Value>
+              </Date>
+            </DateCollection>
+
+            <MilestoneCollection>
+              <Milestone>
+                <Description>CARRIER BOOKING CONFIRMATION</Description>
+                <EventCode>Z09</EventCode>
+                <Sequence>45</Sequence>
+                <ActualDate>2019-12-16T16:23:08.84</ActualDate>
+                <ConditionReference></ConditionReference>
+                <ConditionType></ConditionType>
+                <EstimatedDate></EstimatedDate>
+              </Milestone>
+              <Milestone>
+                <Description>VGM CutOff</Description>
+                <EventCode>Z20</EventCode>
+                <Sequence>65</Sequence>
+                <ActualDate></ActualDate>
+                <ConditionReference>VGM CutOff Date</ConditionReference>
+                <ConditionType>REF</ConditionType>
+                <EstimatedDate></EstimatedDate>
+              </Milestone>
+              <Milestone>
+                <Description>DEPARTED</Description>
+                <EventCode>Z25</EventCode>
+                <Sequence>138</Sequence>
+                <ActualDate>2019-12-22T18:56:00</ActualDate>
+                <ConditionReference>DEPARTED</ConditionReference>
+                <ConditionType>REF</ConditionType>
+                <EstimatedDate></EstimatedDate>
+              </Milestone>
+              <Milestone>
+                <Description>RA-ALL CONTAINERS UNLOAD FROM VESSEL</Description>
+                <EventCode>FUL</EventCode>
+                <Sequence>830</Sequence>
+                <ActualDate></ActualDate>
+                <ConditionReference>FAC=CTO</ConditionReference>
+                <ConditionType>RFP</ConditionType>
+                <EstimatedDate>2020-01-04T06:00:00</EstimatedDate>
+              </Milestone>
+              <Milestone>
+                <Description>RA-ALL PICK UP NUMBER RECEIVED</Description>
+                <EventCode>Z77</EventCode>
+                <Sequence>840</Sequence>
+                <ActualDate></ActualDate>
+                <ConditionReference></ConditionReference>
+                <ConditionType></ConditionType>
+                <EstimatedDate></EstimatedDate>
+              </Milestone>
+              <Milestone>
+                <Description>RA-ALL PICK UP NUMBER SENT</Description>
+                <EventCode>Z78</EventCode>
+                <Sequence>850</Sequence>
+                <ActualDate></ActualDate>
+                <ConditionReference></ConditionReference>
+                <ConditionType></ConditionType>
+                <EstimatedDate></EstimatedDate>
+              </Milestone>
+              <Milestone>
+                <Description>RA-ALL CONTAINERS PICKED UP</Description>
+                <EventCode>GOU</EventCode>
+                <Sequence>860</Sequence>
+                <ActualDate></ActualDate>
+                <ConditionReference>FAC=CTO</ConditionReference>
+                <ConditionType>RFP</ConditionType>
+                <EstimatedDate></EstimatedDate>
+              </Milestone>
+              <Milestone>
+                <Description>RA-ALL CONTAINERS DELIVERED</Description>
+                <EventCode>DLV</EventCode>
+                <Sequence>870</Sequence>
+                <ActualDate></ActualDate>
+                <ConditionReference></ConditionReference>
+                <ConditionType></ConditionType>
+                <EstimatedDate></EstimatedDate>
+              </Milestone>
+              <Milestone>
+                <Description>RA-ALL CONTAINERS READY FOR EMPTY REUTRN</Description>
+                <EventCode>CRE</EventCode>
+                <Sequence>880</Sequence>
+                <ActualDate></ActualDate>
+                <ConditionReference></ConditionReference>
+                <ConditionType></ConditionType>
+                <EstimatedDate></EstimatedDate>
+              </Milestone>
+              <Milestone>
+                <Description>RA-ALL EMPTY CONTAINERS RETURNED</Description>
+                <EventCode>DHR</EventCode>
+                <Sequence>890</Sequence>
+                <ActualDate></ActualDate>
+                <ConditionReference>FAC=CY</ConditionReference>
+                <ConditionType>RFP</ConditionType>
+                <EstimatedDate></EstimatedDate>
+              </Milestone>
+              <Milestone>
+                <Description>SA - UPDATE PAYMENT - OTHER2</Description>
+                <EventCode>ADD</EventCode>
+                <Sequence>899</Sequence>
+                <ActualDate>2019-12-16T16:18:50.2</ActualDate>
+                <ConditionReference></ConditionReference>
+                <ConditionType></ConditionType>
+                <EstimatedDate></EstimatedDate>
+              </Milestone>
+              <Milestone>
+                <Description>AMS - 3Z</Description>
+                <EventCode>Z88</EventCode>
+                <Sequence>1000</Sequence>
+                <ActualDate></ActualDate>
+                <ConditionReference>AMS - 3Z</ConditionReference>
+                <ConditionType>REF</ConditionType>
+                <EstimatedDate></EstimatedDate>
+              </Milestone>
+              <Milestone>
+                <Description>AMS - 1Y</Description>
+                <EventCode>Z88</EventCode>
+                <Sequence>1001</Sequence>
+                <ActualDate></ActualDate>
+                <ConditionReference>AMS - 1Y</ConditionReference>
+                <ConditionType>REF</ConditionType>
+                <EstimatedDate></EstimatedDate>
+              </Milestone>
+              <Milestone>
+                <Description>AMS - 2Z</Description>
+                <EventCode>Z88</EventCode>
+                <Sequence>1002</Sequence>
+                <ActualDate></ActualDate>
+                <ConditionReference>AMS - 2Z</ConditionReference>
+                <ConditionType>REF</ConditionType>
+                <EstimatedDate></EstimatedDate>
+              </Milestone>
+              <Milestone>
+                <Description>AMS - 6H</Description>
+                <EventCode>Z88</EventCode>
+                <Sequence>1003</Sequence>
+                <ActualDate></ActualDate>
+                <ConditionReference>AMS - 6H</ConditionReference>
+                <ConditionType>REF</ConditionType>
+                <EstimatedDate></EstimatedDate>
+              </Milestone>
+              <Milestone>
+                <Description>AMS - 1C</Description>
+                <EventCode>Z88</EventCode>
+                <Sequence>1004</Sequence>
+                <ActualDate></ActualDate>
+                <ConditionReference>AMS - 1C</ConditionReference>
+                <ConditionType>REF</ConditionType>
+                <EstimatedDate></EstimatedDate>
+              </Milestone>
+              <Milestone>
+                <Description>AMS - 1X</Description>
+                <EventCode>Z88</EventCode>
+                <Sequence>1005</Sequence>
+                <ActualDate></ActualDate>
+                <ConditionReference>AMS - 1X</ConditionReference>
+                <ConditionType>REF</ConditionType>
+                <EstimatedDate></EstimatedDate>
+              </Milestone>
+              <Milestone>
+                <Description>SA - UPDATE PAYMENT - OTHER2</Description>
+                <EventCode>ADD</EventCode>
+                <Sequence>899</Sequence>
+                <ActualDate>2019-12-16T16:18:50.2</ActualDate>
+                <ConditionReference>Source.JK_AgentType!="OTH"</ConditionReference>
+                <ConditionType>MCR</ConditionType>
+                <EstimatedDate></EstimatedDate>
+              </Milestone>
+            </MilestoneCollection>
+
+            <NoteCollection Content="Partial">
+              <Note>
+                <Description>Goods Handling Instructions</Description>
+                <IsCustomDescription>false</IsCustomDescription>
+                <NoteText>1.LOC CHARGE AND OCEAN FREIGHT
+                  PAY AT SHENZHEN
+                  2.PICK UP OBL AT SHENZHEN
+                  3.NEED CHASSIS</NoteText>
+                <NoteContext>
+                  <Code>AAA</Code>
+                  <Description>Module: A - All, Direction: A - All, Freight: A - All</Description>
+                </NoteContext>
+                <Visibility>
+                  <Code>PUB</Code>
+                  <Description>CLIENT-VISIBLE</Description>
+                </Visibility>
+              </Note>
+              <Note>
+                <Description>MBL Goods Description</Description>
+                <IsCustomDescription>false</IsCustomDescription>
+                <NoteText>E-COMMERCE CARGO(19-088TPC-772)
+                  N/A:SHENZHEN RUIBO MING TRADING
+                  HS CODE:940179</NoteText>
+                <NoteContext>
+                  <Code>AAA</Code>
+                  <Description>Module: A - All, Direction: A - All, Freight: A - All</Description>
+                </NoteContext>
+                <Visibility>
+                  <Code>INT</Code>
+                  <Description>INTERNAL</Description>
+                </Visibility>
+              </Note>
+            </NoteCollection>
+
+            <OrganizationAddressCollection>
+              <OrganizationAddress>
+                <AddressType>NotifyParty</AddressType>
+                <Address1>5553 BANDINI BLVD UNIT A</Address1>
+                <Address2></Address2>
+                <AddressOverride>false</AddressOverride>
+                <AddressShortCode>5553 BANDINI BLVD UNIT A</AddressShortCode>
+                <City>BELL</City>
+                <CompanyName>DE WELL CONTAINER SHIPPING INC.</CompanyName>
+                <Country>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </Country>
+                <Email>DOC@DE-WELL.COM</Email>
+                <Fax>+13107358601</Fax>
+                <OrganizationCode>DEWELL_US</OrganizationCode>
+                <Phone>+13107358600</Phone>
+                <Port>
+                  <Code>USBQC</Code>
+                  <Name>Bell</Name>
+                </Port>
+                <Postcode>90201</Postcode>
+                <ScreeningStatus>
+                  <Code>NOT</Code>
+                  <Description>Not Screened</Description>
+                </ScreeningStatus>
+                <State>CA</State>
+              </OrganizationAddress>
+              <OrganizationAddress>
+                <AddressType>Creditor</AddressType>
+                <Address1>34&amp;35/F,SHENZHEN KERRY CENTER.NO 2008 SOUTH RENMIN</Address1>
+                <Address2></Address2>
+                <AddressOverride>false</AddressOverride>
+                <AddressShortCode>34&amp;35/F,SHENZHEN KERRY CE</AddressShortCode>
+                <City>SHENZHEN</City>
+                <CompanyName>深圳中外运船务代理有限公司罗湖营业部</CompanyName>
+                <Country>
+                  <Code>CN</Code>
+                  <Name>China</Name>
+                </Country>
+                <Email></Email>
+                <Fax></Fax>
+                <OrganizationCode>MSC_SNZ</OrganizationCode>
+                <Phone></Phone>
+                <Port>
+                  <Code>CNSNZ</Code>
+                  <Name>Shenzhen</Name>
+                </Port>
+                <Postcode></Postcode>
+                <ScreeningStatus>
+                  <Code>NOT</Code>
+                  <Description>Not Screened</Description>
+                </ScreeningStatus>
+                <State>44</State>
+              </OrganizationAddress>
+              <OrganizationAddress>
+                <AddressType>ReceivingForwarderAddress</AddressType>
+                <Address1>5553 BANDINI BLVD UNIT A</Address1>
+                <Address2></Address2>
+                <AddressOverride>false</AddressOverride>
+                <AddressShortCode>5553 BANDINI BLVD UNIT A</AddressShortCode>
+                <City>BELL</City>
+                <CompanyName>DE WELL CONTAINER SHIPPING INC.</CompanyName>
+                <Country>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </Country>
+                <Email>DOC@DE-WELL.COM</Email>
+                <Fax>+13107358601</Fax>
+                <OrganizationCode>DEWELL15ECOM</OrganizationCode>
+                <Phone>+13107358600</Phone>
+                <Port>
+                  <Code>USLAX</Code>
+                  <Name>Los Angeles</Name>
+                </Port>
+                <Postcode>90201</Postcode>
+                <ScreeningStatus>
+                  <Code>UNK</Code>
+                  <Description>Unknown</Description>
+                </ScreeningStatus>
+                <State>CA</State>
+              </OrganizationAddress>
+              <OrganizationAddress>
+                <AddressType>ShippingLineAddress</AddressType>
+                <Address1>S.A. CHEMIN RIEU 12-14</Address1>
+                <Address2></Address2>
+                <AddressOverride>false</AddressOverride>
+                <AddressShortCode>S.A. CHEMIN RIEU 12-14</AddressShortCode>
+                <City>GENEVA</City>
+                <CompanyName>MEDITERRANEAN SHIPPING COMPANY</CompanyName>
+                <Country>
+                  <Code>CH</Code>
+                  <Name>Switzerland</Name>
+                </Country>
+                <Email></Email>
+                <Fax></Fax>
+                <OrganizationCode>MSC_WW</OrganizationCode>
+                <Phone></Phone>
+                <Port>
+                  <Code>CHGVA</Code>
+                  <Name>Geneve</Name>
+                </Port>
+                <Postcode>1208</Postcode>
+                <ScreeningStatus>
+                  <Code>UNK</Code>
+                  <Description>Unknown</Description>
+                </ScreeningStatus>
+                <State>GE</State>
+
+                <RegistrationNumberCollection>
+                  <RegistrationNumber>
+                    <Type>
+                      <Code>CCC</Code>
+                      <Description>Standard Carrier Alpha Code (Sea)</Description>
+                    </Type>
+                    <CountryOfIssue>
+                      <Code>US</Code>
+                      <Name>United States</Name>
+                    </CountryOfIssue>
+                    <Value>MEDU</Value>
+                  </RegistrationNumber>
+                </RegistrationNumberCollection>
+              </OrganizationAddress>
+              <OrganizationAddress>
+                <AddressType>SendingForwarderAddress</AddressType>
+                <Address1>ROOM1003,LIFE INSURANCE BUILDING ,1001,</Address1>
+                <Address2>FUZHONG 1 ROAD , FUTIAN DISTRICT</Address2>
+                <AddressOverride>false</AddressOverride>
+                <AddressShortCode>20C HUA FU RD</AddressShortCode>
+                <City>SHENZHEN</City>
+                <CompanyName>DE WELL CONTAINER SHIPPING INC.SHENZHEN BRANCH</CompanyName>
+                <Country>
+                  <Code>CN</Code>
+                  <Name>China</Name>
+                </Country>
+                <Email></Email>
+                <Fax>+8675582874246</Fax>
+                <GovRegNum>91440300MA5F0FKWX6</GovRegNum>
+                <GovRegNumType>
+                  <Code>VAT</Code>
+                  <Description>VAT Registration Code</Description>
+                </GovRegNumType>
+                <OrganizationCode>DEWELLSNZ</OrganizationCode>
+                <Phone>+8675582877822</Phone>
+                <Port>
+                  <Code>CNYTN</Code>
+                  <Name>Yantian</Name>
+                </Port>
+                <Postcode>5180</Postcode>
+                <ScreeningStatus>
+                  <Code>UNK</Code>
+                  <Description>Unknown</Description>
+                </ScreeningStatus>
+                <State>44</State>
+
+                <RegistrationNumberCollection>
+                  <RegistrationNumber>
+                    <Type>
+                      <Code>VAG</Code>
+                      <Description>VAT General Tax Payer</Description>
+                    </Type>
+                    <CountryOfIssue>
+                      <Code>CN</Code>
+                      <Name>China</Name>
+                    </CountryOfIssue>
+                    <Value>91440300MA5F0FKWX6</Value>
+                  </RegistrationNumber>
+                  <RegistrationNumber>
+                    <Type>
+                      <Code>CCC</Code>
+                      <Description>Standard Carrier Alpha Code (Sea)</Description>
+                    </Type>
+                    <CountryOfIssue>
+                      <Code>US</Code>
+                      <Name>United States</Name>
+                    </CountryOfIssue>
+                    <Value>DWCH</Value>
+                  </RegistrationNumber>
+                </RegistrationNumberCollection>
+              </OrganizationAddress>
+              <OrganizationAddress>
+                <AddressType>ArrivalCTOAddress</AddressType>
+                <Address1>1111 INTERMODAL PKWY</Address1>
+                <Address2></Address2>
+                <AddressOverride>false</AddressOverride>
+                <AddressShortCode>1111 INTERMODAL PKWY</AddressShortCode>
+                <City>HASLET</City>
+                <CompanyName>BNSF HASLET</CompanyName>
+                <Country>
+                  <Code>US</Code>
+                  <Name>United States</Name>
+                </Country>
+                <Email></Email>
+                <Fax></Fax>
+                <OrganizationCode>T926</OrganizationCode>
+                <Phone>+18172247164</Phone>
+                <Port>
+                  <Code>USHXC</Code>
+                  <Name>Haslet</Name>
+                </Port>
+                <Postcode>76052</Postcode>
+                <ScreeningStatus>
+                  <Code>NOT</Code>
+                  <Description>Not Screened</Description>
+                </ScreeningStatus>
+                <State>TX</State>
+
+                <RegistrationNumberCollection>
+                  <RegistrationNumber>
+                    <Type>
+                      <Code>FRM</Code>
+                      <Description>FIRMS Code</Description>
+                    </Type>
+                    <CountryOfIssue>
+                      <Code>US</Code>
+                      <Name>United States</Name>
+                    </CountryOfIssue>
+                    <Value>T926</Value>
+                  </RegistrationNumber>
+                </RegistrationNumberCollection>
+              </OrganizationAddress>
+            </OrganizationAddressCollection>
+
+            <SubShipmentCollection>
+              <SubShipment>
+                <DataContext>
+                  <DataSourceCollection>
+                    <DataSource>
+                      <Type>ForwardingShipment</Type>
+                      <Key>SSNZS0006511</Key>
+                    </DataSource>
+                  </DataSourceCollection>
+                </DataContext>
+
+                <ActualChargeable>64.040</ActualChargeable>
+                <AdditionalTerms></AdditionalTerms>
+                <BookingConfirmationReference></BookingConfirmationReference>
+                <CartageWaybillNumber></CartageWaybillNumber>
+                <CFSReference></CFSReference>
+                <ContainerCount>1</ContainerCount>
+                <ContainerMode>
+                  <Code>FCL</Code>
+                  <Description>Full Container Load</Description>
+                </ContainerMode>
+                <DocumentedChargeable>64.040</DocumentedChargeable>
+                <DocumentedVolume>64.040</DocumentedVolume>
+                <DocumentedWeight>8298.610</DocumentedWeight>
+                <FreightRate>0.0000</FreightRate>
+                <FreightRateCurrency>
+                  <Code></Code>
+                </FreightRateCurrency>
+                <GoodsDescription></GoodsDescription>
+                <GoodsValue>0.0000</GoodsValue>
+                <GoodsValueCurrency>
+                  <Code>CNY</Code>
+                  <Description>Chinese Yuan</Description>
+                </GoodsValueCurrency>
+                <HBLAWBChargesDisplay>
+                  <Code>SHW</Code>
+                  <Description>Show Collect Charges</Description>
+                </HBLAWBChargesDisplay>
+                <HBLContainerPackModeOverride>CY/DOOR</HBLContainerPackModeOverride>
+                <HouseBillOfLadingType>
+                  <Code>DWH</Code>
+                  <Description>House Bill De Well</Description>
+                </HouseBillOfLadingType>
+                <InsuranceValue>0.0000</InsuranceValue>
+                <InsuranceValueCurrency>
+                  <Code>CNY</Code>
+                  <Description>Chinese Yuan</Description>
+                </InsuranceValueCurrency>
+                <InterimReceiptNumber></InterimReceiptNumber>
+                <IsBooking>false</IsBooking>
+                <IsCancelled>false</IsCancelled>
+                <IsCFSRegistered>false</IsCFSRegistered>
+                <IsDirectBooking>false</IsDirectBooking>
+                <IsForwardRegistered>true</IsForwardRegistered>
+                <IsNeutralMaster>false</IsNeutralMaster>
+                <IsShipping>false</IsShipping>
+                <IsSplitShipment>false</IsSplitShipment>
+                <JobCosting>
+                  <AccrualNotRecognized>0.0000</AccrualNotRecognized>
+                  <AccrualRecognized>0.0000</AccrualRecognized>
+                  <AgentRevenue>0</AgentRevenue>
+                  <Branch>
+                    <Code>HKG</Code>
+                    <Name>De Well Container Shipping Corp Ltd.</Name>
+                  </Branch>
+                  <Currency>
+                    <Code>HKD</Code>
+                    <Description>Hong Kong Dollar</Description>
+                  </Currency>
+                  <Department>
+                    <Code>FES</Code>
+                    <Name>Forwarding Export Sea</Name>
+                  </Department>
+                  <HomeBranch>
+                    <Code>CHQ</Code>
+                    <Name>De Well (CHQ)</Name>
+                  </HomeBranch>
+                  <LocalClientRevenue>0</LocalClientRevenue>
+                  <OperationsStaff>
+                    <Code>ZZ2</Code>
+                    <Name>Zoe Zheng</Name>
+                  </OperationsStaff>
+                  <OtherDebtorRevenue>66580.8800</OtherDebtorRevenue>
+                  <TotalAccrual>0.0000</TotalAccrual>
+                  <TotalCost>-62818.7900</TotalCost>
+                  <TotalJobProfit>3762.0900</TotalJobProfit>
+                  <TotalRevenue>66580.8800</TotalRevenue>
+                  <TotalWIP>0.0000</TotalWIP>
+                  <WIPNotRecognized>0.0000</WIPNotRecognized>
+                  <WIPRecognized>0.0000</WIPRecognized>
+
+                  <ChargeLineCollection>
+                    <ChargeLine>
+                      <Branch>
+                        <Code>HKG</Code>
+                        <Name>De Well Container Shipping Corp Ltd.</Name>
+                      </Branch>
+                      <ChargeCode>
+                        <Code>FRT</Code>
+                        <Description>International Freight</Description>
+                      </ChargeCode>
+                      <ChargeCodeGroup>
+                        <Code>FRT</Code>
+                        <Description>Freight</Description>
+                      </ChargeCodeGroup>
+                      <CostAPInvoiceNumber>SNZ1912001537</CostAPInvoiceNumber>
+                      <CostDueDate>2019-12-26T12:04:00</CostDueDate>
+                      <CostExchangeRate>7.827299000</CostExchangeRate>
+                      <CostInvoiceDate>2019-12-26T12:04:00</CostInvoiceDate>
+                      <CostIsPosted>true</CostIsPosted>
+                      <CostLocalAmount>26143.1800</CostLocalAmount>
+                      <CostOSAmount>3340.0000</CostOSAmount>
+                      <CostOSCurrency>
+                        <Code>USD</Code>
+                        <Description>United States Dollar</Description>
+                      </CostOSCurrency>
+                      <CostOSGSTVATAmount>0.0000</CostOSGSTVATAmount>
+                      <Creditor>
+                        <Type>Organization</Type>
+                        <Key>DEWELLSNZ</Key>
+                      </Creditor>
+                      <Debtor>
+                        <Type>Organization</Type>
+                        <Key>L-MATLANKWN</Key>
+                      </Debtor>
+                      <Department>
+                        <Code>FES</Code>
+                        <Name>Forwarding Export Sea</Name>
+                      </Department>
+                      <Description>International Freight</Description>
+                      <DisplaySequence>1</DisplaySequence>
+                      <SellExchangeRate>7.827300000</SellExchangeRate>
+                      <SellInvoiceType>CUR</SellInvoiceType>
+                      <SellIsPosted>true</SellIsPosted>
+                      <SellLocalAmount>33618.2500</SellLocalAmount>
+                      <SellOSAmount>4295.0000</SellOSAmount>
+                      <SellOSCurrency>
+                        <Code>USD</Code>
+                        <Description>United States Dollar</Description>
+                      </SellOSCurrency>
+                      <SellOSGSTVATAmount>0</SellOSGSTVATAmount>
+                      <SellPostedTransactionNumber>00002535</SellPostedTransactionNumber>
+                      <SellPostedTransactionType>INV</SellPostedTransactionType>
+
+                      <CostRatingBasisCollection>
+                      </CostRatingBasisCollection>
+
+                      <SellRatingBasisCollection>
+                      </SellRatingBasisCollection>
+                    </ChargeLine>
+                    <ChargeLine>
+                      <Branch>
+                        <Code>HKG</Code>
+                        <Name>De Well Container Shipping Corp Ltd.</Name>
+                      </Branch>
+                      <ChargeCode>
+                        <Code>DCART</Code>
+                        <Description>Delivery Cartage/Drayage</Description>
+                      </ChargeCode>
+                      <ChargeCodeGroup>
+                        <Code>DST</Code>
+                        <Description>Destination</Description>
+                      </ChargeCodeGroup>
+                      <CostAPInvoiceNumber>00055988</CostAPInvoiceNumber>
+                      <CostDueDate>2019-12-25T20:01:00</CostDueDate>
+                      <CostExchangeRate>7.827300000</CostExchangeRate>
+                      <CostInvoiceDate>2019-12-25T20:01:00</CostInvoiceDate>
+                      <CostIsPosted>true</CostIsPosted>
+                      <CostLocalAmount>3130.9200</CostLocalAmount>
+                      <CostOSAmount>400.0000</CostOSAmount>
+                      <CostOSCurrency>
+                        <Code>USD</Code>
+                        <Description>United States Dollar</Description>
+                      </CostOSCurrency>
+                      <CostOSGSTVATAmount>0.0000</CostOSGSTVATAmount>
+                      <Creditor>
+                        <Type>Organization</Type>
+                        <Key>DEWELL15ECOM</Key>
+                      </Creditor>
+                      <Debtor>
+                        <Type>Organization</Type>
+                        <Key>L-MATLANKWN</Key>
+                      </Debtor>
+                      <Department>
+                        <Code>FES</Code>
+                        <Name>Forwarding Export Sea</Name>
+                      </Department>
+                      <Description>Delivery Cartage/Drayage</Description>
+                      <DisplaySequence>2</DisplaySequence>
+                      <SellExchangeRate>7.827300000</SellExchangeRate>
+                      <SellInvoiceType>CUR</SellInvoiceType>
+                      <SellIsPosted>true</SellIsPosted>
+                      <SellLocalAmount>3130.9200</SellLocalAmount>
+                      <SellOSAmount>400.0000</SellOSAmount>
+                      <SellOSCurrency>
+                        <Code>USD</Code>
+                        <Description>United States Dollar</Description>
+                      </SellOSCurrency>
+                      <SellOSGSTVATAmount>0</SellOSGSTVATAmount>
+                      <SellPostedTransactionNumber>00002535</SellPostedTransactionNumber>
+                      <SellPostedTransactionType>INV</SellPostedTransactionType>
+
+                      <CostRatingBasisCollection>
+                      </CostRatingBasisCollection>
+
+                      <SellRatingBasisCollection>
+                      </SellRatingBasisCollection>
+                    </ChargeLine>
+                    <ChargeLine>
+                      <Branch>
+                        <Code>HKG</Code>
+                        <Name>De Well Container Shipping Corp Ltd.</Name>
+                      </Branch>
+                      <ChargeCode>
+                        <Code>DCHS</Code>
+                        <Description>Destination Chassis Rental</Description>
+                      </ChargeCode>
+                      <ChargeCodeGroup>
+                        <Code>DST</Code>
+                        <Description>Destination</Description>
+                      </ChargeCodeGroup>
+                      <CostAPInvoiceNumber>00055988</CostAPInvoiceNumber>
+                      <CostDueDate>2019-12-25T20:01:00</CostDueDate>
+                      <CostExchangeRate>7.827333000</CostExchangeRate>
+                      <CostInvoiceDate>2019-12-25T20:01:00</CostInvoiceDate>
+                      <CostIsPosted>true</CostIsPosted>
+                      <CostLocalAmount>821.8700</CostLocalAmount>
+                      <CostOSAmount>105.0000</CostOSAmount>
+                      <CostOSCurrency>
+                        <Code>USD</Code>
+                        <Description>United States Dollar</Description>
+                      </CostOSCurrency>
+                      <CostOSGSTVATAmount>0.0000</CostOSGSTVATAmount>
+                      <Creditor>
+                        <Type>Organization</Type>
+                        <Key>DEWELL15ECOM</Key>
+                      </Creditor>
+                      <Debtor>
+                        <Type>Organization</Type>
+                        <Key>L-MATLANKWN</Key>
+                      </Debtor>
+                      <Department>
+                        <Code>FES</Code>
+                        <Name>Forwarding Export Sea</Name>
+                      </Department>
+                      <Description>Destination Chassis Rental</Description>
+                      <DisplaySequence>3</DisplaySequence>
+                      <SellExchangeRate>7.827300000</SellExchangeRate>
+                      <SellInvoiceType>CUR</SellInvoiceType>
+                      <SellIsPosted>true</SellIsPosted>
+                      <SellLocalAmount>821.8700</SellLocalAmount>
+                      <SellOSAmount>105.0000</SellOSAmount>
+                      <SellOSCurrency>
+                        <Code>USD</Code>
+                        <Description>United States Dollar</Description>
+                      </SellOSCurrency>
+                      <SellOSGSTVATAmount>0</SellOSGSTVATAmount>
+                      <SellPostedTransactionNumber>00002535</SellPostedTransactionNumber>
+                      <SellPostedTransactionType>INV</SellPostedTransactionType>
+
+                      <CostRatingBasisCollection>
+                      </CostRatingBasisCollection>
+
+                      <SellRatingBasisCollection>
+                      </SellRatingBasisCollection>
+                    </ChargeLine>
+                    <ChargeLine>
+                      <Branch>
+                        <Code>HKG</Code>
+                        <Name>De Well Container Shipping Corp Ltd.</Name>
+                      </Branch>
+                      <ChargeCode>
+                        <Code>DROP</Code>
+                        <Description>Destination Container Drop Fee</Description>
+                      </ChargeCode>
+                      <ChargeCodeGroup>
+                        <Code>DST</Code>
+                        <Description>Destination</Description>
+                      </ChargeCodeGroup>
+                      <CostAPInvoiceNumber>00055988</CostAPInvoiceNumber>
+                      <CostDueDate>2019-12-25T20:01:00</CostDueDate>
+                      <CostExchangeRate>7.827300000</CostExchangeRate>
+                      <CostInvoiceDate>2019-12-25T20:01:00</CostInvoiceDate>
+                      <CostIsPosted>true</CostIsPosted>
+                      <CostLocalAmount>782.7300</CostLocalAmount>
+                      <CostOSAmount>100.0000</CostOSAmount>
+                      <CostOSCurrency>
+                        <Code>USD</Code>
+                        <Description>United States Dollar</Description>
+                      </CostOSCurrency>
+                      <CostOSGSTVATAmount>0.0000</CostOSGSTVATAmount>
+                      <Creditor>
+                        <Type>Organization</Type>
+                        <Key>DEWELL15ECOM</Key>
+                      </Creditor>
+                      <Debtor>
+                        <Type>Organization</Type>
+                        <Key>L-MATLANKWN</Key>
+                      </Debtor>
+                      <Department>
+                        <Code>FES</Code>
+                        <Name>Forwarding Export Sea</Name>
+                      </Department>
+                      <Description>Destination Container Drop Fee</Description>
+                      <DisplaySequence>4</DisplaySequence>
+                      <SellExchangeRate>7.827300000</SellExchangeRate>
+                      <SellInvoiceType>CUR</SellInvoiceType>
+                      <SellIsPosted>true</SellIsPosted>
+                      <SellLocalAmount>782.7300</SellLocalAmount>
+                      <SellOSAmount>100.0000</SellOSAmount>
+                      <SellOSCurrency>
+                        <Code>USD</Code>
+                        <Description>United States Dollar</Description>
+                      </SellOSCurrency>
+                      <SellOSGSTVATAmount>0</SellOSGSTVATAmount>
+                      <SellPostedTransactionNumber>00002535</SellPostedTransactionNumber>
+                      <SellPostedTransactionType>INV</SellPostedTransactionType>
+
+                      <CostRatingBasisCollection>
+                      </CostRatingBasisCollection>
+
+                      <SellRatingBasisCollection>
+                      </SellRatingBasisCollection>
+                    </ChargeLine>
+                    <ChargeLine>
+                      <Branch>
+                        <Code>HKG</Code>
+                        <Name>De Well Container Shipping Corp Ltd.</Name>
+                      </Branch>
+                      <ChargeCode>
+                        <Code>DDF</Code>
+                        <Description>Destination Documentation Fee</Description>
+                      </ChargeCode>
+                      <ChargeCodeGroup>
+                        <Code>DST</Code>
+                        <Description>Destination</Description>
+                      </ChargeCodeGroup>
+                      <CostExchangeRate>1.000000000</CostExchangeRate>
+                      <CostIsPosted>false</CostIsPosted>
+                      <CostLocalAmount>0.0000</CostLocalAmount>
+                      <CostOSAmount>0.0000</CostOSAmount>
+                      <CostOSCurrency>
+                        <Code>HKD</Code>
+                        <Description>Hong Kong Dollar</Description>
+                      </CostOSCurrency>
+                      <CostOSGSTVATAmount>0</CostOSGSTVATAmount>
+                      <Debtor>
+                        <Type>Organization</Type>
+                        <Key>L-MATLANKWN</Key>
+                      </Debtor>
+                      <Department>
+                        <Code>FES</Code>
+                        <Name>Forwarding Export Sea</Name>
+                      </Department>
+                      <Description>Destination Documentation Fee</Description>
+                      <DisplaySequence>5</DisplaySequence>
+                      <SellExchangeRate>7.827300000</SellExchangeRate>
+                      <SellInvoiceType>CUR</SellInvoiceType>
+                      <SellIsPosted>true</SellIsPosted>
+                      <SellLocalAmount>508.7700</SellLocalAmount>
+                      <SellOSAmount>65.0000</SellOSAmount>
+                      <SellOSCurrency>
+                        <Code>USD</Code>
+                        <Description>United States Dollar</Description>
+                      </SellOSCurrency>
+                      <SellOSGSTVATAmount>0</SellOSGSTVATAmount>
+                      <SellPostedTransactionNumber>00002535</SellPostedTransactionNumber>
+                      <SellPostedTransactionType>INV</SellPostedTransactionType>
+
+                      <CostRatingBasisCollection>
+                      </CostRatingBasisCollection>
+
+                      <SellRatingBasisCollection>
+                      </SellRatingBasisCollection>
+                    </ChargeLine>
+                    <ChargeLine>
+                      <Branch>
+                        <Code>HKG</Code>
+                        <Name>De Well Container Shipping Corp Ltd.</Name>
+                      </Branch>
+                      <ChargeCode>
+                        <Code>CCLR</Code>
+                        <Description>Import Customs Clearance</Description>
+                      </ChargeCode>
+                      <ChargeCodeGroup>
+                        <Code>BRK</Code>
+                        <Description>Customs Brokerage / Agency / Entry Fees</Description>
+                      </ChargeCodeGroup>
+                      <CostAPInvoiceNumber>00055988</CostAPInvoiceNumber>
+                      <CostDueDate>2019-12-25T20:01:00</CostDueDate>
+                      <CostExchangeRate>7.827250000</CostExchangeRate>
+                      <CostInvoiceDate>2019-12-25T20:01:00</CostInvoiceDate>
+                      <CostIsPosted>true</CostIsPosted>
+                      <CostLocalAmount>626.1800</CostLocalAmount>
+                      <CostOSAmount>80.0000</CostOSAmount>
+                      <CostOSCurrency>
+                        <Code>USD</Code>
+                        <Description>United States Dollar</Description>
+                      </CostOSCurrency>
+                      <CostOSGSTVATAmount>0.0000</CostOSGSTVATAmount>
+                      <Creditor>
+                        <Type>Organization</Type>
+                        <Key>DEWELL15ECOM</Key>
+                      </Creditor>
+                      <Debtor>
+                        <Type>Organization</Type>
+                        <Key>L-MATLANKWN</Key>
+                      </Debtor>
+                      <Department>
+                        <Code>CES</Code>
+                        <Name>Clearance Export Sea</Name>
+                      </Department>
+                      <Description>Import Customs Clearance</Description>
+                      <DisplaySequence>6</DisplaySequence>
+                      <SellExchangeRate>7.827300000</SellExchangeRate>
+                      <SellInvoiceType>CUR</SellInvoiceType>
+                      <SellIsPosted>true</SellIsPosted>
+                      <SellLocalAmount>665.3200</SellLocalAmount>
+                      <SellOSAmount>85.0000</SellOSAmount>
+                      <SellOSCurrency>
+                        <Code>USD</Code>
+                        <Description>United States Dollar</Description>
+                      </SellOSCurrency>
+                      <SellOSGSTVATAmount>0</SellOSGSTVATAmount>
+                      <SellPostedTransactionNumber>00002535</SellPostedTransactionNumber>
+                      <SellPostedTransactionType>INV</SellPostedTransactionType>
+
+                      <CostRatingBasisCollection>
+                      </CostRatingBasisCollection>
+
+                      <SellRatingBasisCollection>
+                      </SellRatingBasisCollection>
+                    </ChargeLine>
+                    <ChargeLine>
+                      <Branch>
+                        <Code>HKG</Code>
+                        <Name>De Well Container Shipping Corp Ltd.</Name>
+                      </Branch>
+                      <ChargeCode>
+                        <Code>ISF</Code>
+                        <Description>ISF Filling</Description>
+                      </ChargeCode>
+                      <ChargeCodeGroup>
+                        <Code>ORG</Code>
+                        <Description>Origin</Description>
+                      </ChargeCodeGroup>
+                      <CostExchangeRate>1.000000000</CostExchangeRate>
+                      <CostIsPosted>false</CostIsPosted>
+                      <CostLocalAmount>0.0000</CostLocalAmount>
+                      <CostOSAmount>0.0000</CostOSAmount>
+                      <CostOSCurrency>
+                        <Code>HKD</Code>
+                        <Description>Hong Kong Dollar</Description>
+                      </CostOSCurrency>
+                      <CostOSGSTVATAmount>0</CostOSGSTVATAmount>
+                      <Debtor>
+                        <Type>Organization</Type>
+                        <Key>L-MATLANKWN</Key>
+                      </Debtor>
+                      <Department>
+                        <Code>FES</Code>
+                        <Name>Forwarding Export Sea</Name>
+                      </Department>
+                      <Description>ISF Filling</Description>
+                      <DisplaySequence>7</DisplaySequence>
+                      <SellExchangeRate>7.827300000</SellExchangeRate>
+                      <SellInvoiceType>CUR</SellInvoiceType>
+                      <SellIsPosted>true</SellIsPosted>
+                      <SellLocalAmount>195.6800</SellLocalAmount>
+                      <SellOSAmount>25.0000</SellOSAmount>
+                      <SellOSCurrency>
+                        <Code>USD</Code>
+                        <Description>United States Dollar</Description>
+                      </SellOSCurrency>
+                      <SellOSGSTVATAmount>0</SellOSGSTVATAmount>
+                      <SellPostedTransactionNumber>00002535</SellPostedTransactionNumber>
+                      <SellPostedTransactionType>INV</SellPostedTransactionType>
+
+                      <CostRatingBasisCollection>
+                      </CostRatingBasisCollection>
+
+                      <SellRatingBasisCollection>
+                      </SellRatingBasisCollection>
+                    </ChargeLine>
+                    <ChargeLine>
+                      <Branch>
+                        <Code>HKG</Code>
+                        <Name>De Well Container Shipping Corp Ltd.</Name>
+                      </Branch>
+                      <ChargeCode>
+                        <Code>DSEC</Code>
+                        <Description>Destination Security Surcharge</Description>
+                      </ChargeCode>
+                      <ChargeCodeGroup>
+                        <Code>FRT</Code>
+                        <Description>Freight</Description>
+                      </ChargeCodeGroup>
+                      <CostAPInvoiceNumber>00055988</CostAPInvoiceNumber>
+                      <CostDueDate>2019-12-25T20:01:00</CostDueDate>
+                      <CostExchangeRate>7.827333000</CostExchangeRate>
+                      <CostInvoiceDate>2019-12-25T20:01:00</CostInvoiceDate>
+                      <CostIsPosted>true</CostIsPosted>
+                      <CostLocalAmount>117.4100</CostLocalAmount>
+                      <CostOSAmount>15.0000</CostOSAmount>
+                      <CostOSCurrency>
+                        <Code>USD</Code>
+                        <Description>United States Dollar</Description>
+                      </CostOSCurrency>
+                      <CostOSGSTVATAmount>0.0000</CostOSGSTVATAmount>
+                      <Creditor>
+                        <Type>Organization</Type>
+                        <Key>DEWELL15ECOM</Key>
+                      </Creditor>
+                      <Debtor>
+                        <Type>Organization</Type>
+                        <Key>L-MATLANKWN</Key>
+                      </Debtor>
+                      <Department>
+                        <Code>FES</Code>
+                        <Name>Forwarding Export Sea</Name>
+                      </Department>
+                      <Description>Destination Security Surcharge</Description>
+                      <DisplaySequence>8</DisplaySequence>
+                      <SellExchangeRate>1.000000000</SellExchangeRate>
+                      <SellInvoiceType>FIN</SellInvoiceType>
+                      <SellIsPosted>false</SellIsPosted>
+                      <SellLocalAmount>0.0000</SellLocalAmount>
+                      <SellOSAmount>0.0000</SellOSAmount>
+                      <SellOSCurrency>
+                        <Code>HKD</Code>
+                        <Description>Hong Kong Dollar</Description>
+                      </SellOSCurrency>
+                      <SellOSGSTVATAmount>0</SellOSGSTVATAmount>
+
+                      <CostRatingBasisCollection>
+                      </CostRatingBasisCollection>
+
+                      <SellRatingBasisCollection>
+                      </SellRatingBasisCollection>
+                    </ChargeLine>
+                    <ChargeLine>
+                      <Branch>
+                        <Code>HKG</Code>
+                        <Name>De Well Container Shipping Corp Ltd.</Name>
+                      </Branch>
+                      <ChargeCode>
+                        <Code>PS</Code>
+                        <Description>Profit Share / Rebate</Description>
+                      </ChargeCode>
+                      <ChargeCodeGroup>
+                        <Code>NGC</Code>
+                        <Description>Not grouped</Description>
+                      </ChargeCodeGroup>
+                      <CostAPInvoiceNumber>00055988</CostAPInvoiceNumber>
+                      <CostDueDate>2019-12-25T20:01:00</CostDueDate>
+                      <CostExchangeRate>7.827307000</CostExchangeRate>
+                      <CostInvoiceDate>2019-12-25T20:01:00</CostInvoiceDate>
+                      <CostIsPosted>true</CostIsPosted>
+                      <CostLocalAmount>4476.7500</CostLocalAmount>
+                      <CostOSAmount>571.9400</CostOSAmount>
+                      <CostOSCurrency>
+                        <Code>USD</Code>
+                        <Description>United States Dollar</Description>
+                      </CostOSCurrency>
+                      <CostOSGSTVATAmount>0.0000</CostOSGSTVATAmount>
+                      <Creditor>
+                        <Type>Organization</Type>
+                        <Key>DEWELL15ECOM</Key>
+                      </Creditor>
+                      <Debtor>
+                        <Type>Organization</Type>
+                        <Key>L-MATLANKWN</Key>
+                      </Debtor>
+                      <Department>
+                        <Code>FES</Code>
+                        <Name>Forwarding Export Sea</Name>
+                      </Department>
+                      <Description>Profit Share / Rebate</Description>
+                      <DisplaySequence>9</DisplaySequence>
+                      <SellExchangeRate>1.000000000</SellExchangeRate>
+                      <SellInvoiceType>FIN</SellInvoiceType>
+                      <SellIsPosted>false</SellIsPosted>
+                      <SellLocalAmount>0.0000</SellLocalAmount>
+                      <SellOSAmount>0.0000</SellOSAmount>
+                      <SellOSCurrency>
+                        <Code>HKD</Code>
+                        <Description>Hong Kong Dollar</Description>
+                      </SellOSCurrency>
+                      <SellOSGSTVATAmount>0</SellOSGSTVATAmount>
+
+                      <CostRatingBasisCollection>
+                      </CostRatingBasisCollection>
+
+                      <SellRatingBasisCollection>
+                      </SellRatingBasisCollection>
+                    </ChargeLine>
+                    <ChargeLine>
+                      <Branch>
+                        <Code>HKG</Code>
+                        <Name>De Well Container Shipping Corp Ltd.</Name>
+                      </Branch>
+                      <ChargeCode>
+                        <Code>DUTY</Code>
+                        <Description>Duty</Description>
+                      </ChargeCode>
+                      <ChargeCodeGroup>
+                        <Code>CDS</Code>
+                        <Description>Customs Duty / Tax / Entry Fees and other disbursements</Description>
+                      </ChargeCodeGroup>
+                      <CostAPInvoiceNumber>00062561</CostAPInvoiceNumber>
+                      <CostDueDate>2020-01-07T21:15:00</CostDueDate>
+                      <CostExchangeRate>7.787199000</CostExchangeRate>
+                      <CostInvoiceDate>2020-01-07T21:15:00</CostInvoiceDate>
+                      <CostIsPosted>true</CostIsPosted>
+                      <CostLocalAmount>26719.7500</CostLocalAmount>
+                      <CostOSAmount>3431.2400</CostOSAmount>
+                      <CostOSCurrency>
+                        <Code>USD</Code>
+                        <Description>United States Dollar</Description>
+                      </CostOSCurrency>
+                      <CostOSGSTVATAmount>0.0000</CostOSGSTVATAmount>
+                      <Creditor>
+                        <Type>Organization</Type>
+                        <Key>DEWELL15ECOM</Key>
+                      </Creditor>
+                      <Debtor>
+                        <Type>Organization</Type>
+                        <Key>L-MATLANKWN</Key>
+                      </Debtor>
+                      <Department>
+                        <Code>CES</Code>
+                        <Name>Clearance Export Sea</Name>
+                      </Department>
+                      <Description>Duty</Description>
+                      <DisplaySequence>10</DisplaySequence>
+                      <SellExchangeRate>7.827300000</SellExchangeRate>
+                      <SellInvoiceType>DCU</SellInvoiceType>
+                      <SellIsPosted>true</SellIsPosted>
+                      <SellLocalAmount>26857.3400</SellLocalAmount>
+                      <SellOSAmount>3431.2400</SellOSAmount>
+                      <SellOSCurrency>
+                        <Code>USD</Code>
+                        <Description>United States Dollar</Description>
+                      </SellOSCurrency>
+                      <SellOSGSTVATAmount>0</SellOSGSTVATAmount>
+                      <SellPostedTransactionNumber>00002801</SellPostedTransactionNumber>
+                      <SellPostedTransactionType>INV</SellPostedTransactionType>
+
+                      <CostRatingBasisCollection>
+                      </CostRatingBasisCollection>
+
+                      <SellRatingBasisCollection>
+                      </SellRatingBasisCollection>
+                    </ChargeLine>
+                  </ChargeLineCollection>
+                </JobCosting>
+                <LloydsIMO>9399026</LloydsIMO>
+                <ManifestedChargeable>64.040</ManifestedChargeable>
+                <ManifestedVolume>64.040</ManifestedVolume>
+                <ManifestedWeight>8298.610</ManifestedWeight>
+                <NoCopyBills>3</NoCopyBills>
+                <NoOriginalBills>3</NoOriginalBills>
+                <OuterPacks>2629</OuterPacks>
+                <OuterPacksPackageType>
+                  <Code>CTN</Code>
+                  <Description>Carton</Description>
+                </OuterPacksPackageType>
+                <PackingOrder>0</PackingOrder>
+                <PortOfDestination>
+                  <Code>USDAL</Code>
+                  <Name>Dallas</Name>
+                </PortOfDestination>
+                <PortOfDischarge>
+                  <Code>USDAL</Code>
+                  <Name>Dallas</Name>
+                </PortOfDischarge>
+                <PortOfFirstArrival>
+                  <Code></Code>
+                </PortOfFirstArrival>
+                <PortOfLoading>
+                  <Code>CNYTN</Code>
+                  <Name>Yantian</Name>
+                </PortOfLoading>
+                <PortOfOrigin>
+                  <Code>CNYTN</Code>
+                  <Name>Yantian</Name>
+                </PortOfOrigin>
+                <ReleaseType>
+                  <Code>OBO</Code>
+                  <Description>Original Bill - Surrendered at Origin</Description>
+                </ReleaseType>
+                <ScreeningStatus>
+                  <Code>NOT</Code>
+                  <Description>Not Screened</Description>
+                </ScreeningStatus>
+                <ServiceLevel>
+                  <Code>STD</Code>
+                  <Description>Standard</Description>
+                </ServiceLevel>
+                <ShipmentIncoTerm>
+                  <Code>DDP</Code>
+                  <Description>Delivered Duty Paid</Description>
+                </ShipmentIncoTerm>
+                <ShipmentType>
+                  <Code>STD</Code>
+                  <Description>Standard House</Description>
+                </ShipmentType>
+                <ShippedOnBoard>
+                  <Code>SHP</Code>
+                  <Description>Shipped</Description>
+                </ShippedOnBoard>
+                <ShipperCODAmount>0.0000</ShipperCODAmount>
+                <ShipperCODPayMethod>
+                  <Code></Code>
+                </ShipperCODPayMethod>
+                <TotalNoOfPacks>0</TotalNoOfPacks>
+                <TotalNoOfPacksPackageType>
+                  <Code>CTN</Code>
+                  <Description>Carton</Description>
+                </TotalNoOfPacksPackageType>
+                <TotalVolume>64.040</TotalVolume>
+                <TotalVolumeUnit>
+                  <Code>M3</Code>
+                  <Description>Cubic Metres</Description>
+                </TotalVolumeUnit>
+                <TotalWeight>8298.610</TotalWeight>
+                <TotalWeightUnit>
+                  <Code>KG</Code>
+                  <Description>Kilograms</Description>
+                </TotalWeightUnit>
+                <TranshipToOtherCFS>false</TranshipToOtherCFS>
+                <TransportMode>
+                  <Code>SEA</Code>
+                  <Description>Sea Freight</Description>
+                </TransportMode>
+                <VesselName>MSC KALINA</VesselName>
+                <VoyageFlightNo>QH951N</VoyageFlightNo>
+                <WarehouseLocation></WarehouseLocation>
+                <WayBillNumber>SSNZS0006511</WayBillNumber>
+                <WayBillType>
+                  <Code>HWB</Code>
+                  <Description>House Waybill</Description>
+                </WayBillType>
+
+                <LocalProcessing>
+                  <ArrivalCartageRef></ArrivalCartageRef>
+                  <DeliveryCartageAdvised>2020-01-07T12:26:00</DeliveryCartageAdvised>
+                  <DeliveryCartageCompleted></DeliveryCartageCompleted>
+                  <DeliveryLabourCharge>0.0000</DeliveryLabourCharge>
+                  <DeliveryLabourTime></DeliveryLabourTime>
+                  <DeliveryRequiredBy></DeliveryRequiredBy>
+                  <DemurrageOnDeliveryCharge>0.0000</DemurrageOnDeliveryCharge>
+                  <DemurrageOnDeliveryTime></DemurrageOnDeliveryTime>
+                  <DemurrageOnPickupCharge>0.0000</DemurrageOnPickupCharge>
+                  <DemurrageOnPickupTime></DemurrageOnPickupTime>
+                  <EstimatedDelivery></EstimatedDelivery>
+                  <EstimatedPickup></EstimatedPickup>
+                  <ExportStatement>
+                    <Code></Code>
+                  </ExportStatement>
+                  <FCLAvailable></FCLAvailable>
+                  <FCLDeliveryEquipmentNeeded>
+                    <Code>WUP</Code>
+                    <Description>Wait for Pack/Unpack</Description>
+                  </FCLDeliveryEquipmentNeeded>
+                  <FCLPickupEquipmentNeeded>
+                    <Code>WUP</Code>
+                    <Description>Wait for Pack/Unpack</Description>
+                  </FCLPickupEquipmentNeeded>
+                  <FCLStorageCommences></FCLStorageCommences>
+                  <HasProhibitedPackaging>false</HasProhibitedPackaging>
+                  <InsuranceRequired>false</InsuranceRequired>
+                  <IsContingencyRelease>false</IsContingencyRelease>
+                  <LCLAirStorageCharge>0.0000</LCLAirStorageCharge>
+                  <LCLAirStorageDaysOrHours>0</LCLAirStorageDaysOrHours>
+                  <LCLAvailable></LCLAvailable>
+                  <LCLDatesOverrideConsol>false</LCLDatesOverrideConsol>
+                  <LCLStorageCommences></LCLStorageCommences>
+                  <PickupCartageAdvised></PickupCartageAdvised>
+                  <PickupCartageCompleted></PickupCartageCompleted>
+                  <PickupLabourCharge>0.0000</PickupLabourCharge>
+                  <PickupLabourTime></PickupLabourTime>
+                  <PickupRequiredBy></PickupRequiredBy>
+                  <PrintOptionForPackagesOnAWB>
+                    <Code>DEF</Code>
+                    <Description>Default (Dims, fallback to Vol)</Description>
+                  </PrintOptionForPackagesOnAWB>
+                </LocalProcessing>
+
+                <ContainerCollection Content="Complete">
+                  <Container>
+                    <AirVentFlow>0.0</AirVentFlow>
+                    <AirVentFlowRateUnit>
+                      <Code></Code>
+                    </AirVentFlowRateUnit>
+                    <ArrivalCartageAdvised>2020-01-07T12:26:00</ArrivalCartageAdvised>
+                    <ArrivalCartageComplete></ArrivalCartageComplete>
+                    <ArrivalCartageDemurrageCharge>0.0000</ArrivalCartageDemurrageCharge>
+                    <ArrivalCartageDemurrageTime></ArrivalCartageDemurrageTime>
+                    <ArrivalCartageRef></ArrivalCartageRef>
+                    <ArrivalDeliveryRequiredBy></ArrivalDeliveryRequiredBy>
+                    <ArrivalEstimatedDelivery></ArrivalEstimatedDelivery>
+                    <ArrivalPickupByRail>false</ArrivalPickupByRail>
+                    <ArrivalSlotDateTime></ArrivalSlotDateTime>
+                    <ArrivalSlotReference></ArrivalSlotReference>
+                    <Commodity>
+                      <Code></Code>
+                    </Commodity>
+                    <ContainerCount>1</ContainerCount>
+                    <ContainerDetentionCharge>0.0000</ContainerDetentionCharge>
+                    <ContainerDetentionDays>0</ContainerDetentionDays>
+                    <ContainerImportDORelease></ContainerImportDORelease>
+                    <ContainerNumber>MEDU8274525</ContainerNumber>
+                    <ContainerParkEmptyPickupGateOut>2019-12-15T23:02:00</ContainerParkEmptyPickupGateOut>
+                    <ContainerParkEmptyReturnGateIn></ContainerParkEmptyReturnGateIn>
+                    <ContainerQuality>
+                      <Code></Code>
+                    </ContainerQuality>
+                    <ContainerStatus>
+                      <Code></Code>
+                    </ContainerStatus>
+                    <ContainerType>
+                      <Code>40HC</Code>
+                      <Category>
+                        <Code>DRY</Code>
+                        <Description>Dry Storage</Description>
+                      </Category>
+                      <Description>Forty foot high cube</Description>
+                      <ISOCode>45G0</ISOCode>
+                    </ContainerType>
+                    <DeliveryMode>CY/CY</DeliveryMode>
+                    <DeliverySequence>0</DeliverySequence>
+                    <DepartureCartageAdvised></DepartureCartageAdvised>
+                    <DepartureCartageComplete></DepartureCartageComplete>
+                    <DepartureCartageDemurrageCharge>0.0000</DepartureCartageDemurrageCharge>
+                    <DepartureCartageDemurrageTime></DepartureCartageDemurrageTime>
+                    <DepartureCartageRef></DepartureCartageRef>
+                    <DepartureDeliveryByRail>false</DepartureDeliveryByRail>
+                    <DepartureDockReceipt></DepartureDockReceipt>
+                    <DepartureEstimatedPickup></DepartureEstimatedPickup>
+                    <DepartureSlotDateTime></DepartureSlotDateTime>
+                    <DepartureSlotReference></DepartureSlotReference>
+                    <DunnageWeight>0.000</DunnageWeight>
+                    <EmptyReadyForReturn></EmptyReadyForReturn>
+                    <EmptyRequired></EmptyRequired>
+                    <EmptyReturnedBy></EmptyReturnedBy>
+                    <EmptyReturnRef></EmptyReturnRef>
+                    <ExportDepotCustomsReference></ExportDepotCustomsReference>
+                    <FCL_LCL_AIR>
+                      <Code>FCL</Code>
+                      <Description>Full Container Load</Description>
+                    </FCL_LCL_AIR>
+                    <FCLAvailable></FCLAvailable>
+                    <FCLHeldInTransitStaging>false</FCLHeldInTransitStaging>
+                    <FCLOnBoardVessel>2019-12-23T14:43:00</FCLOnBoardVessel>
+                    <FCLStorageArrivedUnderbond>false</FCLStorageArrivedUnderbond>
+                    <FCLStorageCharge>0.0000</FCLStorageCharge>
+                    <FCLStorageCommences></FCLStorageCommences>
+                    <FCLStorageDays>0</FCLStorageDays>
+                    <FCLStorageModuleOnlyMaster></FCLStorageModuleOnlyMaster>
+                    <FCLStorageUnderbondCleared></FCLStorageUnderbondCleared>
+                    <FCLUnloadFromVessel></FCLUnloadFromVessel>
+                    <FCLWharfGateIn>2019-12-16T20:04:00</FCLWharfGateIn>
+                    <FCLWharfGateOut></FCLWharfGateOut>
+                    <GoodsValue>0.0000</GoodsValue>
+                    <GoodsValueCurrency>
+                      <Code></Code>
+                    </GoodsValueCurrency>
+                    <GoodsWeight>8298.61</GoodsWeight>
+                    <GrossWeight>12278.610</GrossWeight>
+                    <GrossWeightVerificationType>
+                      <Code>NON</Code>
+                      <Description>Not Verified</Description>
+                    </GrossWeightVerificationType>
+                    <HumidityPercent>0</HumidityPercent>
+                    <IsCFSRegistered>false</IsCFSRegistered>
+                    <IsControlledAtmosphere>false</IsControlledAtmosphere>
+                    <IsDamaged>false</IsDamaged>
+                    <IsEmptyContainer>false</IsEmptyContainer>
+                    <IsSealOk>true</IsSealOk>
+                    <IsShipperOwned>false</IsShipperOwned>
+                    <LCLAvailable></LCLAvailable>
+                    <LCLStorageCommences></LCLStorageCommences>
+                    <LCLUnpack></LCLUnpack>
+                    <LengthUnit>
+                      <Code>FT</Code>
+                      <Description>Feet</Description>
+                    </LengthUnit>
+                    <Link>1</Link>
+                    <OverhangBack>0.000</OverhangBack>
+                    <OverhangFront>0</OverhangFront>
+                    <OverhangHeight>0</OverhangHeight>
+                    <OverhangLeft>0</OverhangLeft>
+                    <OverhangRight>0.000</OverhangRight>
+                    <OverrideFCLAvailableStorage>false</OverrideFCLAvailableStorage>
+                    <OverrideLCLAvailableStorage>false</OverrideLCLAvailableStorage>
+                    <PackDate></PackDate>
+                    <RefrigGeneratorID></RefrigGeneratorID>
+                    <ReleaseNum></ReleaseNum>
+                    <Seal>FJ08457177</Seal>
+                    <SealPartyType>
+                      <Code></Code>
+                    </SealPartyType>
+                    <SecondSeal></SecondSeal>
+                    <SecondSealPartyType>
+                      <Code></Code>
+                    </SecondSealPartyType>
+                    <SetPointTemp>0.000</SetPointTemp>
+                    <SetPointTempUnit></SetPointTempUnit>
+                    <StowagePosition></StowagePosition>
+                    <TareWeight>3980.000</TareWeight>
+                    <TempRecorderSerialNo></TempRecorderSerialNo>
+                    <ThirdSeal></ThirdSeal>
+                    <ThirdSealPartyType>
+                      <Code></Code>
+                    </ThirdSealPartyType>
+                    <TotalHeight>9.500</TotalHeight>
+                    <TotalLength>40.000</TotalLength>
+                    <TotalWidth>8.000</TotalWidth>
+                    <TrainWagonNumber></TrainWagonNumber>
+                    <UnpackGang></UnpackGang>
+                    <UnpackShed></UnpackShed>
+                    <VolumeCapacity>0.000</VolumeCapacity>
+                    <VolumeUnit>
+                      <Code>M3</Code>
+                      <Description>Cubic Metres</Description>
+                    </VolumeUnit>
+                    <WeightCapacity>0.000</WeightCapacity>
+                    <WeightUnit>
+                      <Code>KG</Code>
+                      <Description>Kilograms</Description>
+                    </WeightUnit>
+
+                    <MilestoneCollection>
+                      <Milestone>
+                        <Description>Empty Container Released</Description>
+                        <EventCode>GOU</EventCode>
+                        <Sequence>10</Sequence>
+                        <ActualDate>2019-12-15T23:02:00</ActualDate>
+                        <ConditionReference>FAC=CY</ConditionReference>
+                        <ConditionType>RFP</ConditionType>
+                        <EstimatedDate></EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>Full Container Picked Up</Description>
+                        <EventCode>PUP</EventCode>
+                        <Sequence>30</Sequence>
+                        <ActualDate></ActualDate>
+                        <ConditionReference></ConditionReference>
+                        <ConditionType></ConditionType>
+                        <EstimatedDate></EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>Gated In at Load Port/Terminal</Description>
+                        <EventCode>GIN</EventCode>
+                        <Sequence>50</Sequence>
+                        <ActualDate>2019-12-16T20:04:00</ActualDate>
+                        <ConditionReference>FAC=CTO</ConditionReference>
+                        <ConditionType>RFP</ConditionType>
+                        <EstimatedDate></EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>Loaded on Board</Description>
+                        <EventCode>FLO</EventCode>
+                        <Sequence>70</Sequence>
+                        <ActualDate>2019-12-23T14:43:00</ActualDate>
+                        <ConditionReference>FAC=CTO</ConditionReference>
+                        <ConditionType>RFP</ConditionType>
+                        <EstimatedDate></EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>In transshipment</Description>
+                        <EventCode>STU</EventCode>
+                        <Sequence>90</Sequence>
+                        <ActualDate></ActualDate>
+                        <ConditionReference>DEP=Carrier,TYP=In transshipment</ConditionReference>
+                        <ConditionType>RFP</ConditionType>
+                        <EstimatedDate></EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>MAKE AN APPOINTMENT WITH WAREHOUSE</Description>
+                        <EventCode>Z79</EventCode>
+                        <Sequence>490</Sequence>
+                        <ActualDate></ActualDate>
+                        <ConditionReference></ConditionReference>
+                        <ConditionType></ConditionType>
+                        <EstimatedDate>2020-01-05T06:00:00</EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>CONTAINER UNLOAD FROM VESSEL</Description>
+                        <EventCode>FUL</EventCode>
+                        <Sequence>510</Sequence>
+                        <ActualDate></ActualDate>
+                        <ConditionReference>FAC=CTO</ConditionReference>
+                        <ConditionType>RFP</ConditionType>
+                        <EstimatedDate>2020-01-04T06:00:00</EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>CONTAINER READY FOR PICK UP</Description>
+                        <EventCode>CAV</EventCode>
+                        <Sequence>520</Sequence>
+                        <ActualDate></ActualDate>
+                        <ConditionReference></ConditionReference>
+                        <ConditionType></ConditionType>
+                        <EstimatedDate></EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>TERMINAL APPOINTMENT DATE</Description>
+                        <EventCode>Z80</EventCode>
+                        <Sequence>525</Sequence>
+                        <ActualDate></ActualDate>
+                        <ConditionReference></ConditionReference>
+                        <ConditionType></ConditionType>
+                        <EstimatedDate></EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>TERMINAL LFD DEMURRAGE</Description>
+                        <EventCode>Z77</EventCode>
+                        <Sequence>530</Sequence>
+                        <ActualDate></ActualDate>
+                        <ConditionReference></ConditionReference>
+                        <ConditionType>MCR</ConditionType>
+                        <EstimatedDate></EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>CARRIER LFD DEMURRAGE</Description>
+                        <EventCode>Z78</EventCode>
+                        <Sequence>540</Sequence>
+                        <ActualDate></ActualDate>
+                        <ConditionReference></ConditionReference>
+                        <ConditionType></ConditionType>
+                        <EstimatedDate></EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>CONTAINER LFD DEMURRAGE</Description>
+                        <EventCode>Z72</EventCode>
+                        <Sequence>550</Sequence>
+                        <ActualDate></ActualDate>
+                        <ConditionReference></ConditionReference>
+                        <ConditionType></ConditionType>
+                        <EstimatedDate></EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>CONTAINER PICKED UP</Description>
+                        <EventCode>GOU</EventCode>
+                        <Sequence>560</Sequence>
+                        <ActualDate></ActualDate>
+                        <ConditionReference>FAC=CTO</ConditionReference>
+                        <ConditionType>RFP</ConditionType>
+                        <EstimatedDate></EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>MBL CONTIANER LFD PER DIEM</Description>
+                        <EventCode>Z73</EventCode>
+                        <Sequence>570</Sequence>
+                        <ActualDate></ActualDate>
+                        <ConditionReference></ConditionReference>
+                        <ConditionType></ConditionType>
+                        <EstimatedDate></EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>HBL CONTAINER LFD PER DIEM</Description>
+                        <EventCode>Z75</EventCode>
+                        <Sequence>580</Sequence>
+                        <ActualDate></ActualDate>
+                        <ConditionReference></ConditionReference>
+                        <ConditionType></ConditionType>
+                        <EstimatedDate></EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>MBL CHASSIS LFD PER DIEM</Description>
+                        <EventCode>Z74</EventCode>
+                        <Sequence>590</Sequence>
+                        <ActualDate></ActualDate>
+                        <ConditionReference></ConditionReference>
+                        <ConditionType></ConditionType>
+                        <EstimatedDate></EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>HBL CHASSIS LFD PER DIEM</Description>
+                        <EventCode>Z76</EventCode>
+                        <Sequence>600</Sequence>
+                        <ActualDate></ActualDate>
+                        <ConditionReference></ConditionReference>
+                        <ConditionType></ConditionType>
+                        <EstimatedDate></EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>RAIL DETENTION</Description>
+                        <EventCode>Z82</EventCode>
+                        <Sequence>605</Sequence>
+                        <ActualDate></ActualDate>
+                        <ConditionReference></ConditionReference>
+                        <ConditionType></ConditionType>
+                        <EstimatedDate></EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>Freight Loaded on Rail</Description>
+                        <EventCode>FLO</EventCode>
+                        <Sequence>610</Sequence>
+                        <ActualDate></ActualDate>
+                        <ConditionReference>*On Rail*FAC=CTO*</ConditionReference>
+                        <ConditionType>RFW</ConditionType>
+                        <EstimatedDate></EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>Gate In Initial Rail Terminal</Description>
+                        <EventCode>GIN</EventCode>
+                        <Sequence>620</Sequence>
+                        <ActualDate></ActualDate>
+                        <ConditionReference>FAC=CTO,LOC=&lt;SightingCity&gt; &lt;SightingState&gt;</ConditionReference>
+                        <ConditionType>RFP</ConditionType>
+                        <EstimatedDate></EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>In-transit Rail Terminal</Description>
+                        <EventCode>ARV</EventCode>
+                        <Sequence>630</Sequence>
+                        <ActualDate></ActualDate>
+                        <ConditionReference>FAC=In-transit Rail Terminal,LOC=&lt;SightingCity&gt; &lt;SightingState&gt;</ConditionReference>
+                        <ConditionType>RFP</ConditionType>
+                        <EstimatedDate></EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>Held on Rail</Description>
+                        <EventCode>SHL</EventCode>
+                        <Sequence>640</Sequence>
+                        <ActualDate></ActualDate>
+                        <ConditionReference>LOC=&lt;SightingCity&gt; &lt;SightingState&gt;</ConditionReference>
+                        <ConditionType>RFP</ConditionType>
+                        <EstimatedDate></EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>Released on Rail</Description>
+                        <EventCode>RLS</EventCode>
+                        <Sequence>650</Sequence>
+                        <ActualDate></ActualDate>
+                        <ConditionReference>LOC=&lt;SightingCity&gt; &lt;SightingState&gt;</ConditionReference>
+                        <ConditionType>RFP</ConditionType>
+                        <EstimatedDate></EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>Rail Freight Unloaded</Description>
+                        <EventCode>FUL</EventCode>
+                        <Sequence>660</Sequence>
+                        <ActualDate></ActualDate>
+                        <ConditionReference>*Rail*FAC=CTO*</ConditionReference>
+                        <ConditionType>RFW</ConditionType>
+                        <EstimatedDate>2020-01-05T06:00:00</EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>CONTAINER DELIVERED</Description>
+                        <EventCode>DLV</EventCode>
+                        <Sequence>680</Sequence>
+                        <ActualDate></ActualDate>
+                        <ConditionReference></ConditionReference>
+                        <ConditionType></ConditionType>
+                        <EstimatedDate></EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>CONTAINER READY FOR EMPTY RETURN</Description>
+                        <EventCode>CRE</EventCode>
+                        <Sequence>690</Sequence>
+                        <ActualDate></ActualDate>
+                        <ConditionReference></ConditionReference>
+                        <ConditionType></ConditionType>
+                        <EstimatedDate></EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>EMPTY PICKUP DATE</Description>
+                        <EventCode>Z81</EventCode>
+                        <Sequence>695</Sequence>
+                        <ActualDate></ActualDate>
+                        <ConditionReference></ConditionReference>
+                        <ConditionType></ConditionType>
+                        <EstimatedDate></EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>EMPTY CONTAINER RETURNED</Description>
+                        <EventCode>DHR</EventCode>
+                        <Sequence>700</Sequence>
+                        <ActualDate></ActualDate>
+                        <ConditionReference>FAC=CY</ConditionReference>
+                        <ConditionType>RFP</ConditionType>
+                        <EstimatedDate></EstimatedDate>
+                      </Milestone>
+                      <Milestone>
+                        <Description>POD RECEIVED</Description>
+                        <EventCode>DDI</EventCode>
+                        <Sequence>710</Sequence>
+                        <ActualDate></ActualDate>
+                        <ConditionReference>IsMatchingPattern("POD*", Event.Reference) &amp;&amp; Source.JobDirection != "Export"</ConditionReference>
+                        <ConditionType>MCR</ConditionType>
+                        <EstimatedDate></EstimatedDate>
+                      </Milestone>
+                    </MilestoneCollection>
+                  </Container>
+                </ContainerCollection>
+
+                <CustomizedFieldCollection>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>AMS</Key>
+                    <Value>Y</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>DateTime</DataType>
+                    <Key>CARGO READY DATE</Key>
+                    <Value>2019-12-18T00:00:00</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>Complete Packing(S)</Key>
+                    <Value>Y</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>CREDIT STATUS</Key>
+                    <Value>HKG:Y,LAX:N,SHA:Y</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>Duty Status</Key>
+                    <Value>HLD</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>EDI Receiver2</Key>
+                    <Value>GT NEXUS</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>FIRM CODE</Key>
+                    <Value>T926</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>DateTime</DataType>
+                    <Key>FREIGHT RELEASE</Key>
+                    <Value>2020-01-07T00:00:00</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>HBL CHASSIS DAY TYPE</Key>
+                    <Value>CD</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>HBL CHASSIS DAYS</Key>
+                    <Value>10</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>HBL CHASSIS RATE</Key>
+                    <Value>TARIFF</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>DateTime</DataType>
+                    <Key>HBL CONFIRMED</Key>
+                    <Value>2019-12-18T14:52:00</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>HBL PER DIEM DAY TYPE</Key>
+                    <Value>CD</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>HBL PER DIEM DAYS</Key>
+                    <Value>10</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>HBL PER DIEM RATE</Key>
+                    <Value>TARIFF</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>DateTime</DataType>
+                    <Key>HBL RECV</Key>
+                    <Value>2019-12-30T14:32:31</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>DateTime</DataType>
+                    <Key>HBL TR</Key>
+                    <Value>2019-12-30T14:32:00</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>ISF</Key>
+                    <Value>Y</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>MBL CHASSIS DAY TYPE</Key>
+                    <Value>CD</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>MBL CHASSIS DAYS</Key>
+                    <Value>10</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>MBL CHASSIS RATE</Key>
+                    <Value>Tariff</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>DateTime</DataType>
+                    <Key>MBL MAILED</Key>
+                    <Value>2019-12-31T00:00:00</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>MBL PER DIEM DAY TYPE</Key>
+                    <Value>CD</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>MBL PER DIEM DAYS</Key>
+                    <Value>10</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>MBL PER DIEM RATE</Key>
+                    <Value>Tariff</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>Origin Hold</Key>
+                    <Value>N</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>DateTime</DataType>
+                    <Key>PORT ETA</Key>
+                    <Value>2020-01-10T06:00:00</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>DateTime</DataType>
+                    <Key>Run Operational Actions2</Key>
+                    <Value>2019-12-30T00:00:00</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>S_CARRIER</Key>
+                    <Value>MSC_WW</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>S-Cancel IT Status</Key>
+                    <Value>NON</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>S-Carrier Ref. No.</Key>
+                    <Value>181BY19D0200657P1</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>Shipment Cargo Type</Key>
+                    <Value>E-COM</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>S-Master Bill Number</Key>
+                    <Value>MEDUH4252407</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>SPECIAL RELEASE</Key>
+                    <Value>Y</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>SPECIAL RELEASE REASON</Key>
+                    <Value>RHL</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>DateTime</DataType>
+                    <Key>SSL AN RECV</Key>
+                    <Value>2020-01-07T00:10:43</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>DateTime</DataType>
+                    <Key>SSL AN SENT</Key>
+                    <Value>2020-01-07T01:42:09</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>Temporary Text</Key>
+                    <Value>10720</Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>SO Pending</Key>
+                    <Value></Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>SEND ISF</Key>
+                    <Value></Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>S_CARRIER AGENT</Key>
+                    <Value></Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>China-Manifest</Key>
+                    <Value></Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>For Consol Remark</Key>
+                    <Value></Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>DateTime</DataType>
+                    <Key>SHIPMENT POL CUSTOMS CLEARED</Key>
+                    <Value></Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>DateTime</DataType>
+                    <Key>SW-START</Key>
+                    <Value></Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>DateTime</DataType>
+                    <Key>SW-END</Key>
+                    <Value></Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>AUDIT NOTE</Key>
+                    <Value></Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>OPS NOTE</Key>
+                    <Value></Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>Custom Remark</Key>
+                    <Value></Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>OTHER SPECIAL RELEASE REASON</Key>
+                    <Value></Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>DateTime</DataType>
+                    <Key>CTO Storage</Key>
+                    <Value></Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>DateTime</DataType>
+                    <Key>CFS Storage Start</Key>
+                    <Value></Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>DateTime</DataType>
+                    <Key>MBL CONTAINER PER DIEM</Key>
+                    <Value></Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>DateTime</DataType>
+                    <Key>HBL CONTAINER PER DIEM</Key>
+                    <Value></Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>DateTime</DataType>
+                    <Key>MBL CHASSIS PER DIEM</Key>
+                    <Value></Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>DateTime</DataType>
+                    <Key>HBL CHASSIS PER DIEM</Key>
+                    <Value></Value>
+                  </CustomizedField>
+                  <CustomizedField>
+                    <DataType>String</DataType>
+                    <Key>Company For DUTY</Key>
+                    <Value></Value>
+                  </CustomizedField>
+                </CustomizedFieldCollection>
+
+                <DateCollection>
+                  <Date>
+                    <Type>BookingConfirmed</Type>
+                    <IsEstimate>false</IsEstimate>
+                    <Value></Value>
+                  </Date>
+                  <Date>
+                    <Type>Received</Type>
+                    <IsEstimate>false</IsEstimate>
+                    <Value></Value>
+                  </Date>
+                  <Date>
+                    <Type>Departure</Type>
+                    <IsEstimate>true</IsEstimate>
+                    <Value>2019-12-23T00:00:00</Value>
+                  </Date>
+                  <Date>
+                    <Type>Arrival</Type>
+                    <IsEstimate>true</IsEstimate>
+                    <Value>2020-01-17T16:22:00</Value>
+                  </Date>
+                  <Date>
+                    <Type>ShippedOnBoard</Type>
+                    <IsEstimate>false</IsEstimate>
+                    <Value>2019-12-22T18:56:00</Value>
+                  </Date>
+                  <Date>
+                    <Type>BillIssued</Type>
+                    <IsEstimate>false</IsEstimate>
+                    <Value>2019-12-30T14:32:00</Value>
+                  </Date>
+                </DateCollection>
+
+                <MilestoneCollection>
+                  <Milestone>
+                    <Description>NEW BOOKING</Description>
+                    <EventCode>ADD</EventCode>
+                    <Sequence>10</Sequence>
+                    <ActualDate>2019-12-11T17:43:40.913</ActualDate>
+                    <ConditionReference></ConditionReference>
+                    <ConditionType></ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>POL CUSTOMS CLEARED</Description>
+                    <EventCode>Z93</EventCode>
+                    <Sequence>130</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>"&lt;Source.JS_OH_ExportBroker&gt;" != "00000000-0000-0000-0000-000000000000"</ConditionReference>
+                    <ConditionType>MCR</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>AUTO CHANGE PHASE TO PH3</Description>
+                    <EventCode>Z88</EventCode>
+                    <Sequence>223</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>AUTO CHANGE PHASE TO PH3</ConditionReference>
+                    <ConditionType>REF</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>CY Cutoff Date</Description>
+                    <EventCode>Z23</EventCode>
+                    <Sequence>234</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>CY CutOff Date</ConditionReference>
+                    <ConditionType>REF</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>DEPARTURED</Description>
+                    <EventCode>Z25</EventCode>
+                    <Sequence>235</Sequence>
+                    <ActualDate>2019-12-22T18:56:00</ActualDate>
+                    <ConditionReference>DEPARTED</ConditionReference>
+                    <ConditionType>REF</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>CREATE HBL COPY</Description>
+                    <EventCode>Z25</EventCode>
+                    <Sequence>236</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>Source.JS_HouseBill == "000000000000000000000000000000000000000"</ConditionReference>
+                    <ConditionType>MCR</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>BILLING CHANGE REQUEST FOR SA</Description>
+                    <EventCode>Z29</EventCode>
+                    <Sequence>237</Sequence>
+                    <ActualDate>2020-01-08T15:53:45</ActualDate>
+                    <ConditionReference>BILLING CHANGE REQUEST FOR SA</ConditionReference>
+                    <ConditionType>REF</ConditionType>
+                    <EstimatedDate>2020-01-08T15:53:00</EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>RECEIVED MBL</Description>
+                    <EventCode>Z88</EventCode>
+                    <Sequence>240</Sequence>
+                    <ActualDate>2019-12-23T10:03:04</ActualDate>
+                    <ConditionReference>MBL FILE</ConditionReference>
+                    <ConditionType>REF</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>ISSUE H/BOL</Description>
+                    <EventCode>DDA</EventCode>
+                    <Sequence>265</Sequence>
+                    <ActualDate>2019-12-30T14:32:31.98</ActualDate>
+                    <ConditionReference>Source.JobDirection == "Export" &amp;&amp; IsMatchingPattern("OBL*", Event.Reference)</ConditionReference>
+                    <ConditionType>MCR</ConditionType>
+                    <EstimatedDate>2019-12-25T18:56:00</EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>ATA</Description>
+                    <EventCode>ARV</EventCode>
+                    <Sequence>370</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>FAC=CTO</ConditionReference>
+                    <ConditionType>RFP</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>RA-G.O. NOTICE</Description>
+                    <EventCode>DDI</EventCode>
+                    <Sequence>459</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>IsMatchingPattern("GON*", Event.Reference) &amp;&amp; Source.JobDirection != "Export"</ConditionReference>
+                    <ConditionType>MCR</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>RA-SHIPPING CARRIER EXAM</Description>
+                    <EventCode>DDI</EventCode>
+                    <Sequence>460</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>IsMatchingPattern("SCE*", Event.Reference) &amp;&amp; Source.JobDirection != "Export"</ConditionReference>
+                    <ConditionType>MCR</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>SA&amp;RA-HBL RELEASING SENT</Description>
+                    <EventCode>Z61</EventCode>
+                    <Sequence>431</Sequence>
+                    <ActualDate>2019-12-30T14:32:31</ActualDate>
+                    <ConditionReference></ConditionReference>
+                    <ConditionType></ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>BILLING CHANGE REQUEST FOR RA</Description>
+                    <EventCode>Z30</EventCode>
+                    <Sequence>238</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>BILLING CHANGE REQUEST FOR RA</ConditionReference>
+                    <ConditionType>REF</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>GET CARRIER ARRIVAL NOTICE</Description>
+                    <EventCode>Z27</EventCode>
+                    <Sequence>300</Sequence>
+                    <ActualDate>2020-01-07T00:10:43.52</ActualDate>
+                    <ConditionReference>Source.JobDirection != "Export"</ConditionReference>
+                    <ConditionType>MCR</ConditionType>
+                    <EstimatedDate>2020-01-12T16:22:00</EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>SEND ARRIVAL NOTICE TO CLIENT</Description>
+                    <EventCode>Z28</EventCode>
+                    <Sequence>320</Sequence>
+                    <ActualDate>2020-01-07T01:42:09.623</ActualDate>
+                    <ConditionReference>Source.JobDirection != "Export"</ConditionReference>
+                    <ConditionType>MCR</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>RA-COMPLETED THE RA RATE SHEET</Description>
+                    <EventCode>Z16</EventCode>
+                    <Sequence>405</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>Source.JobDirection != "Export"</ConditionReference>
+                    <ConditionType>MCR</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>RA-LOI RECEIVED</Description>
+                    <EventCode>Z64</EventCode>
+                    <Sequence>433</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>Source.JobDirection != "Export"</ConditionReference>
+                    <ConditionType>MCR</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>RA-CHECK COPY RECEIVED</Description>
+                    <EventCode>Z63</EventCode>
+                    <Sequence>434</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>Source.JobDirection != "Export"</ConditionReference>
+                    <ConditionType>MCR</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>RA-OBL REJECT</Description>
+                    <EventCode>Z60</EventCode>
+                    <Sequence>435</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>Source.JobDirection != "Export"</ConditionReference>
+                    <ConditionType>MCR</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>RA-APPROVE SPECIAL RELEASE</Description>
+                    <EventCode>Z59</EventCode>
+                    <Sequence>436</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>Source.JobDirection != "Export"</ConditionReference>
+                    <ConditionType>MCR</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>RA-REJECT SPECIAL RELEASE</Description>
+                    <EventCode>Z55</EventCode>
+                    <Sequence>437</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>Source.JobDirection != "Export"</ConditionReference>
+                    <ConditionType>MCR</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>RA-READY FOR FREIGHT RELEASE</Description>
+                    <EventCode>Z52</EventCode>
+                    <Sequence>438</Sequence>
+                    <ActualDate>2020-01-07T01:42:09.31</ActualDate>
+                    <ConditionReference>Source.JobDirection != "Export"</ConditionReference>
+                    <ConditionType>MCR</ConditionType>
+                    <EstimatedDate>2019-12-31T14:32:00</EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>RA-FREIGHT RELEASED</Description>
+                    <EventCode>Z51</EventCode>
+                    <Sequence>439</Sequence>
+                    <ActualDate>2020-01-07T00:00:00</ActualDate>
+                    <ConditionReference>Source.JobDirection != "Export"</ConditionReference>
+                    <ConditionType>MCR</ConditionType>
+                    <EstimatedDate>2019-12-30T14:32:00</EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>RA-CHECK REQUEST RECEIVED</Description>
+                    <EventCode>Z65</EventCode>
+                    <Sequence>440</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>Source.JobDirection != "Export"</ConditionReference>
+                    <ConditionType>MCR</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>RA-PICK UP NUMBER SENT</Description>
+                    <EventCode>DDI</EventCode>
+                    <Sequence>442</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>IsMatchingPattern("PKN*", Event.Reference) &amp;&amp; Source.JobDirection != "Export"</ConditionReference>
+                    <ConditionType>MCR</ConditionType>
+                    <EstimatedDate>2020-01-07T04:00:00</EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>PGA May Proceed</Description>
+                    <EventCode>MSC</EventCode>
+                    <Sequence>454</Sequence>
+                    <ActualDate>2020-01-07T12:28:23.903</ActualDate>
+                    <ConditionReference>SO - REL</ConditionReference>
+                    <ConditionType>REF</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>PGA Hold Intact</Description>
+                    <EventCode>MSC</EventCode>
+                    <Sequence>455</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>HT</ConditionReference>
+                    <ConditionType>REF</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>FDA Hold</Description>
+                    <EventCode>MSC</EventCode>
+                    <Sequence>456</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>SO - PGA FDA 02</ConditionReference>
+                    <ConditionType>REF</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>FDA Release</Description>
+                    <EventCode>MSC</EventCode>
+                    <Sequence>457</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>SO - PGA FDA 05</ConditionReference>
+                    <ConditionType>REF</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>Import Customs Clearance Commenced</Description>
+                    <EventCode>CCC</EventCode>
+                    <Sequence>450</Sequence>
+                    <ActualDate>2020-01-07T14:27:56.3</ActualDate>
+                    <ConditionReference></ConditionReference>
+                    <ConditionType></ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>Import Customs Cleared</Description>
+                    <EventCode>CLR</EventCode>
+                    <Sequence>451</Sequence>
+                    <ActualDate>2020-01-07T12:28:23.84</ActualDate>
+                    <ConditionReference></ConditionReference>
+                    <ConditionType></ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>RA-7501 RECEIVED</Description>
+                    <EventCode>DDA</EventCode>
+                    <Sequence>458</Sequence>
+                    <ActualDate>2020-01-07T12:28:49.217</ActualDate>
+                    <ConditionReference>(IsMatchingPattern("*CEF*", Event.Reference) || IsMatchingPattern("*CES*", Event.Reference)) &amp;&amp; Source.JobDirection != "Export"</ConditionReference>
+                    <ConditionType>MCR</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>RA-OBL VALIDATED</Description>
+                    <EventCode>Z69</EventCode>
+                    <Sequence>441</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>Source.JobDirection != "Export"</ConditionReference>
+                    <ConditionType>MCR</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>RA-ACTUAL DELIVERY</Description>
+                    <EventCode>DLV</EventCode>
+                    <Sequence>390</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>IsMatchingPattern("*TYP=FUL*", Event.Reference) &amp;&amp; Source.JobDirection != "Export"</ConditionReference>
+                    <ConditionType>MCR</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>RA-UPLOAD POD</Description>
+                    <EventCode>DDI</EventCode>
+                    <Sequence>400</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>IsMatchingPattern("POD*", Event.Reference) &amp;&amp; Source.JobDirection != "Export"</ConditionReference>
+                    <ConditionType>MCR</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                  <Milestone>
+                    <Description>RA-FINAL CHARGE CONFIRMATION FOR VENDOR</Description>
+                    <EventCode>DDI</EventCode>
+                    <Sequence>445</Sequence>
+                    <ActualDate></ActualDate>
+                    <ConditionReference>IsMatchingPattern("FCV*", Event.Reference) &amp;&amp; Source.JobDirection != "Export"</ConditionReference>
+                    <ConditionType>MCR</ConditionType>
+                    <EstimatedDate></EstimatedDate>
+                  </Milestone>
+                </MilestoneCollection>
+
+                <NoteCollection Content="Partial">
+                  <Note>
+                    <Description>A-BILLING-DUTY</Description>
+                    <IsCustomDescription>false</IsCustomDescription>
+                    <NoteText>KW 08-Jan-20 15:53: DUTY UPLOAD</NoteText>
+                    <NoteContext>
+                      <Code>AEA</Code>
+                      <Description>Module: A - All, Direction: E - Export, Freight: A - All</Description>
+                    </NoteContext>
+                    <Visibility>
+                      <Code>INT</Code>
+                      <Description>INTERNAL</Description>
+                    </Visibility>
+                  </Note>
+                  <Note>
+                    <Description>Detailed Goods Description</Description>
+                    <IsCustomDescription>false</IsCustomDescription>
+                    <NoteText>TRANSFER BENCH （12"GRAB BAR）
+                      ADJUSTABLE SHOWER CHAIR（12"GRAB BAR
+                      TOILET SEAT LIFTER FOR BATHROOM SAFETY（12"GRAB BAR
+                      ADJUSTABLE SHOWER CHAIR（12"GRAB BAR)
+                      ADJUSTABLE SHOWER CHAIR（12"GRAB BAR）</NoteText>
+                    <NoteContext>
+                      <Code>AAA</Code>
+                      <Description>Module: A - All, Direction: A - All, Freight: A - All</Description>
+                    </NoteContext>
+                    <Visibility>
+                      <Code>PUB</Code>
+                      <Description>CLIENT-VISIBLE</Description>
+                    </Visibility>
+                  </Note>
+                  <Note>
+                    <Description>Marks &amp; Numbers</Description>
+                    <IsCustomDescription>false</IsCustomDescription>
+                    <NoteText>N/M</NoteText>
+                    <NoteContext>
+                      <Code>AAA</Code>
+                      <Description>Module: A - All, Direction: A - All, Freight: A - All</Description>
+                    </NoteContext>
+                    <Visibility>
+                      <Code>PUB</Code>
+                      <Description>CLIENT-VISIBLE</Description>
+                    </Visibility>
+                  </Note>
+                  <Note>
+                    <Description>PA REMARKS</Description>
+                    <IsCustomDescription>false</IsCustomDescription>
+                    <NoteText>ZZ2 25-Dec-19 11:31: Q#US201911-1158</NoteText>
+                    <NoteContext>
+                      <Code>AAA</Code>
+                      <Description>Module: A - All, Direction: A - All, Freight: A - All</Description>
+                    </NoteContext>
+                    <Visibility>
+                      <Code>INT</Code>
+                      <Description>INTERNAL</Description>
+                    </Visibility>
+                  </Note>
+                  <Note>
+                    <Description>Pre-alert/Arrival Notice Remarks</Description>
+                    <IsCustomDescription>false</IsCustomDescription>
+                    <NoteText>CLEAR AT W185</NoteText>
+                    <NoteContext>
+                      <Code>AAA</Code>
+                      <Description>Module: A - All, Direction: A - All, Freight: A - All</Description>
+                    </NoteContext>
+                    <Visibility>
+                      <Code>PRV</Code>
+                      <Description>PRIVATE</Description>
+                    </Visibility>
+                  </Note>
+                </NoteCollection>
+
+                <OrganizationAddressCollection>
+                  <OrganizationAddress>
+                    <AddressType>ConsignorDocumentaryAddress</AddressType>
+                    <Address1>6 YUANXING ROAD, DONGSHENG TOWN</Address1>
+                    <Address2></Address2>
+                    <AddressOverride>false</AddressOverride>
+                    <AddressShortCode>6 YUANXING ROAD, DONGSHEN</AddressShortCode>
+                    <City>ZHONGSHAN</City>
+                    <CompanyName>ZHONG SHAN LEBO MEDICAL COMPANY LIMITED</CompanyName>
+                    <Country>
+                      <Code>CN</Code>
+                      <Name>China</Name>
+                    </Country>
+                    <Email></Email>
+                    <Fax></Fax>
+                    <OrganizationCode>ZHOSHAYTN</OrganizationCode>
+                    <Phone>+8676022220815</Phone>
+                    <Port>
+                      <Code>CNZSN</Code>
+                      <Name>Zhongshan</Name>
+                    </Port>
+                    <Postcode>528414</Postcode>
+                    <ScreeningStatus>
+                      <Code>NOT</Code>
+                      <Description>Not Screened</Description>
+                    </ScreeningStatus>
+                    <State>44</State>
+
+                    <RegistrationNumberCollection>
+                      <RegistrationNumber>
+                        <Type>
+                          <Code>MID</Code>
+                          <Description>Supplier/Manufacturer ID Number</Description>
+                        </Type>
+                        <CountryOfIssue>
+                          <Code>US</Code>
+                          <Name>United States</Name>
+                        </CountryOfIssue>
+                        <Value>CNZHOSHA6ZHO</Value>
+                      </RegistrationNumber>
+                    </RegistrationNumberCollection>
+                  </OrganizationAddress>
+                  <OrganizationAddress>
+                    <AddressType>ConsignorPickupDeliveryAddress</AddressType>
+                    <Address1>6 YUANXING ROAD, DONGSHENG TOWN</Address1>
+                    <Address2></Address2>
+                    <AddressOverride>false</AddressOverride>
+                    <AddressShortCode>6 YUANXING ROAD, DONGSHEN</AddressShortCode>
+                    <City>ZHONGSHAN</City>
+                    <CompanyName>ZHONG SHAN LEBO MEDICAL COMPANY LIMITED</CompanyName>
+                    <Country>
+                      <Code>CN</Code>
+                      <Name>China</Name>
+                    </Country>
+                    <Email></Email>
+                    <Fax></Fax>
+                    <OrganizationCode>ZHOSHAYTN</OrganizationCode>
+                    <Phone>+8676022220815</Phone>
+                    <Port>
+                      <Code>CNZSN</Code>
+                      <Name>Zhongshan</Name>
+                    </Port>
+                    <Postcode>528414</Postcode>
+                    <ScreeningStatus>
+                      <Code>NOT</Code>
+                      <Description>Not Screened</Description>
+                    </ScreeningStatus>
+                    <State>44</State>
+
+                    <RegistrationNumberCollection>
+                      <RegistrationNumber>
+                        <Type>
+                          <Code>MID</Code>
+                          <Description>Supplier/Manufacturer ID Number</Description>
+                        </Type>
+                        <CountryOfIssue>
+                          <Code>US</Code>
+                          <Name>United States</Name>
+                        </CountryOfIssue>
+                        <Value>CNZHOSHA6ZHO</Value>
+                      </RegistrationNumber>
+                    </RegistrationNumberCollection>
+                  </OrganizationAddress>
+                  <OrganizationAddress>
+                    <AddressType>ConsigneeDocumentaryAddress</AddressType>
+                    <Address1>3113 GLENFIELD AVE</Address1>
+                    <Address2></Address2>
+                    <AddressOverride>false</AddressOverride>
+                    <AddressShortCode>3113 GLENFIELD AVE</AddressShortCode>
+                    <City>DALLAS</City>
+                    <CompanyName>TRADEFORCE INC.C/O:MATCH LAND INTERNATIONAL LIMITED</CompanyName>
+                    <Country>
+                      <Code>US</Code>
+                      <Name>United States</Name>
+                    </Country>
+                    <Email>warehouse.tx@tradeforce-inc.com</Email>
+                    <Fax>+12143332803</Fax>
+                    <OrganizationCode>TRAINCDYT</OrganizationCode>
+                    <Phone>+12143331503</Phone>
+                    <Port>
+                      <Code>USDAL</Code>
+                      <Name>Dallas</Name>
+                    </Port>
+                    <Postcode>75233</Postcode>
+                    <ScreeningStatus>
+                      <Code>NOT</Code>
+                      <Description>Not Screened</Description>
+                    </ScreeningStatus>
+                    <State>TX</State>
+                  </OrganizationAddress>
+                  <OrganizationAddress>
+                    <AddressType>ConsigneePickupDeliveryAddress</AddressType>
+                    <Address1>3113 GLENFIELD AVE</Address1>
+                    <Address2></Address2>
+                    <AddressOverride>false</AddressOverride>
+                    <AddressShortCode>3113 GLENFIELD AVE</AddressShortCode>
+                    <City>DALLAS</City>
+                    <CompanyName>TRADEFORCE INC.C/O:MATCH LAND INTERNATIONAL LIMITED</CompanyName>
+                    <Country>
+                      <Code>US</Code>
+                      <Name>United States</Name>
+                    </Country>
+                    <Email>warehouse.tx@tradeforce-inc.com</Email>
+                    <Fax>+12143332803</Fax>
+                    <OrganizationCode>TRAINCDYT</OrganizationCode>
+                    <Phone>+12143331503</Phone>
+                    <Port>
+                      <Code>USDAL</Code>
+                      <Name>Dallas</Name>
+                    </Port>
+                    <Postcode>75233</Postcode>
+                    <ScreeningStatus>
+                      <Code>NOT</Code>
+                      <Description>Not Screened</Description>
+                    </ScreeningStatus>
+                    <State>TX</State>
+                  </OrganizationAddress>
+                  <OrganizationAddress>
+                    <AddressType>NotifyParty</AddressType>
+                    <Address1>3113 GLENFIELD AVE</Address1>
+                    <Address2></Address2>
+                    <AddressOverride>false</AddressOverride>
+                    <AddressShortCode>3113 GLENFIELD AVE</AddressShortCode>
+                    <City>DALLAS</City>
+                    <CompanyName>TRADEFORCE INC.C/O:MATCH LAND INTERNATIONAL LIMITED</CompanyName>
+                    <Country>
+                      <Code>US</Code>
+                      <Name>United States</Name>
+                    </Country>
+                    <Email>warehouse.tx@tradeforce-inc.com</Email>
+                    <Fax>+12143332803</Fax>
+                    <OrganizationCode>TRAINCDYT</OrganizationCode>
+                    <Phone>+12143331503</Phone>
+                    <Port>
+                      <Code>USDAL</Code>
+                      <Name>Dallas</Name>
+                    </Port>
+                    <Postcode>75233</Postcode>
+                    <ScreeningStatus>
+                      <Code>NOT</Code>
+                      <Description>Not Screened</Description>
+                    </ScreeningStatus>
+                    <State>TX</State>
+                  </OrganizationAddress>
+                  <OrganizationAddress>
+                    <AddressType>ControllingCustomer</AddressType>
+                    <Address1>UNIT 2209, 22F, WU CHENG HSE, 21</Address1>
+                    <Address2></Address2>
+                    <AddressOverride>false</AddressOverride>
+                    <AddressShortCode>11/F., CAPITAL CENTRE,151</AddressShortCode>
+                    <City>HONG KONG</City>
+                    <CompanyName>MATCH LAND INTERNATIONAL LIMITED</CompanyName>
+                    <Country>
+                      <Code>CN</Code>
+                      <Name>China</Name>
+                    </Country>
+                    <Email></Email>
+                    <Fax></Fax>
+                    <OrganizationCode>L-MATLANKWN</OrganizationCode>
+                    <Phone></Phone>
+                    <Port>
+                      <Code>HKHKG</Code>
+                      <Name>Hong Kong</Name>
+                    </Port>
+                    <Postcode></Postcode>
+                    <ScreeningStatus>
+                      <Code>NOT</Code>
+                      <Description>Not Screened</Description>
+                    </ScreeningStatus>
+                    <State>91</State>
+
+                    <RegistrationNumberCollection>
+                      <RegistrationNumber>
+                        <Type>
+                          <Code>LSC</Code>
+                          <Description>Legacy System Code</Description>
+                        </Type>
+                        <CountryOfIssue>
+                          <Code>CN</Code>
+                          <Name>China</Name>
+                        </CountryOfIssue>
+                        <Value>62842</Value>
+                      </RegistrationNumber>
+                      <RegistrationNumber>
+                        <Type>
+                          <Code>CBN</Code>
+                          <Description>CBP Assigned Number</Description>
+                        </Type>
+                        <CountryOfIssue>
+                          <Code>US</Code>
+                          <Name>United States</Name>
+                        </CountryOfIssue>
+                        <Value>171704-11761</Value>
+                      </RegistrationNumber>
+                    </RegistrationNumberCollection>
+                  </OrganizationAddress>
+                  <OrganizationAddress>
+                    <AddressType>ControllingAgent</AddressType>
+                    <Address1>ROOM1003,LIFE INSURANCE BUILDING ,1001,</Address1>
+                    <Address2>FUZHONG 1 ROAD , FUTIAN DISTRICT</Address2>
+                    <AddressOverride>false</AddressOverride>
+                    <AddressShortCode>20C HUA FU RD</AddressShortCode>
+                    <City>SHENZHEN</City>
+                    <CompanyName>DE WELL CONTAINER SHIPPING INC.SHENZHEN BRANCH</CompanyName>
+                    <Country>
+                      <Code>CN</Code>
+                      <Name>China</Name>
+                    </Country>
+                    <Email></Email>
+                    <Fax>+8675582874246</Fax>
+                    <GovRegNum>91440300MA5F0FKWX6</GovRegNum>
+                    <GovRegNumType>
+                      <Code>VAT</Code>
+                      <Description>VAT Registration Code</Description>
+                    </GovRegNumType>
+                    <OrganizationCode>DEWELLSNZ</OrganizationCode>
+                    <Phone>+8675582877822</Phone>
+                    <Port>
+                      <Code>CNYTN</Code>
+                      <Name>Yantian</Name>
+                    </Port>
+                    <Postcode>5180</Postcode>
+                    <ScreeningStatus>
+                      <Code>UNK</Code>
+                      <Description>Unknown</Description>
+                    </ScreeningStatus>
+                    <State>44</State>
+
+                    <RegistrationNumberCollection>
+                      <RegistrationNumber>
+                        <Type>
+                          <Code>VAG</Code>
+                          <Description>VAT General Tax Payer</Description>
+                        </Type>
+                        <CountryOfIssue>
+                          <Code>CN</Code>
+                          <Name>China</Name>
+                        </CountryOfIssue>
+                        <Value>91440300MA5F0FKWX6</Value>
+                      </RegistrationNumber>
+                      <RegistrationNumber>
+                        <Type>
+                          <Code>CCC</Code>
+                          <Description>Standard Carrier Alpha Code (Sea)</Description>
+                        </Type>
+                        <CountryOfIssue>
+                          <Code>US</Code>
+                          <Name>United States</Name>
+                        </CountryOfIssue>
+                        <Value>DWCH</Value>
+                      </RegistrationNumber>
+                    </RegistrationNumberCollection>
+                  </OrganizationAddress>
+                  <OrganizationAddress>
+                    <AddressType>SendersLocalClient</AddressType>
+                    <Address1>6 YUANXING ROAD, DONGSHENG TOWN</Address1>
+                    <Address2></Address2>
+                    <AddressOverride>false</AddressOverride>
+                    <AddressShortCode>6 YUANXING ROAD, DONGSHEN</AddressShortCode>
+                    <City>ZHONGSHAN</City>
+                    <CompanyName>ZHONG SHAN LEBO MEDICAL COMPANY LIMITED</CompanyName>
+                    <Country>
+                      <Code>CN</Code>
+                      <Name>China</Name>
+                    </Country>
+                    <Email></Email>
+                    <Fax></Fax>
+                    <OrganizationCode>ZHOSHAYTN</OrganizationCode>
+                    <Phone>+8676022220815</Phone>
+                    <Port>
+                      <Code>CNZSN</Code>
+                      <Name>Zhongshan</Name>
+                    </Port>
+                    <Postcode>528414</Postcode>
+                    <ScreeningStatus>
+                      <Code>NOT</Code>
+                      <Description>Not Screened</Description>
+                    </ScreeningStatus>
+                    <State>44</State>
+
+                    <RegistrationNumberCollection>
+                      <RegistrationNumber>
+                        <Type>
+                          <Code>MID</Code>
+                          <Description>Supplier/Manufacturer ID Number</Description>
+                        </Type>
+                        <CountryOfIssue>
+                          <Code>US</Code>
+                          <Name>United States</Name>
+                        </CountryOfIssue>
+                        <Value>CNZHOSHA6ZHO</Value>
+                      </RegistrationNumber>
+                    </RegistrationNumberCollection>
+                  </OrganizationAddress>
+                  <OrganizationAddress>
+                    <AddressType>SendersOverseasAgent</AddressType>
+                    <Address1>5553 BANDINI BLVD UNIT A</Address1>
+                    <Address2></Address2>
+                    <AddressOverride>false</AddressOverride>
+                    <AddressShortCode>5553 BANDINI BLVD UNIT A</AddressShortCode>
+                    <City>BELL</City>
+                    <CompanyName>DE WELL CONTAINER SHIPPING INC.</CompanyName>
+                    <Country>
+                      <Code>US</Code>
+                      <Name>United States</Name>
+                    </Country>
+                    <Email>DOC@DE-WELL.COM</Email>
+                    <Fax>+13107358601</Fax>
+                    <OrganizationCode>DEWELL15ECOM</OrganizationCode>
+                    <Phone>+13107358600</Phone>
+                    <Port>
+                      <Code>USLAX</Code>
+                      <Name>Los Angeles</Name>
+                    </Port>
+                    <Postcode>90201</Postcode>
+                    <ScreeningStatus>
+                      <Code>UNK</Code>
+                      <Description>Unknown</Description>
+                    </ScreeningStatus>
+                    <State>CA</State>
+                  </OrganizationAddress>
+                  <OrganizationAddress>
+                    <AddressType>DeliveryAgent</AddressType>
+                    <Address1>5553 BANDINI BLVD UNIT A</Address1>
+                    <Address2></Address2>
+                    <AddressOverride>false</AddressOverride>
+                    <AddressShortCode>5553 BANDINI BLVD UNIT A</AddressShortCode>
+                    <City>BELL</City>
+                    <CompanyName>DE WELL CONTAINER SHIPPING INC.</CompanyName>
+                    <Country>
+                      <Code>US</Code>
+                      <Name>United States</Name>
+                    </Country>
+                    <Email>DOC@DE-WELL.COM</Email>
+                    <Fax>+13107358601</Fax>
+                    <OrganizationCode>DEWELL_US</OrganizationCode>
+                    <Phone>+13107358600</Phone>
+                    <Port>
+                      <Code>USBQC</Code>
+                      <Name>Bell</Name>
+                    </Port>
+                    <Postcode>90201</Postcode>
+                    <ScreeningStatus>
+                      <Code>NOT</Code>
+                      <Description>Not Screened</Description>
+                    </ScreeningStatus>
+                    <State>CA</State>
+                  </OrganizationAddress>
+                  <OrganizationAddress>
+                    <AddressType>ShipmentControllingParty</AddressType>
+                    <Address1>UNIT 2209, 22F, WU CHENG HSE, 21</Address1>
+                    <Address2></Address2>
+                    <AddressOverride>false</AddressOverride>
+                    <AddressShortCode>11/F., CAPITAL CENTRE,151</AddressShortCode>
+                    <City>HONG KONG</City>
+                    <CompanyName>MATCH LAND INTERNATIONAL LIMITED</CompanyName>
+                    <Country>
+                      <Code>CN</Code>
+                      <Name>China</Name>
+                    </Country>
+                    <Email></Email>
+                    <Fax></Fax>
+                    <OrganizationCode>L-MATLANKWN</OrganizationCode>
+                    <Phone></Phone>
+                    <Port>
+                      <Code>HKHKG</Code>
+                      <Name>Hong Kong</Name>
+                    </Port>
+                    <Postcode></Postcode>
+                    <ScreeningStatus>
+                      <Code>NOT</Code>
+                      <Description>Not Screened</Description>
+                    </ScreeningStatus>
+                    <State>91</State>
+
+                    <RegistrationNumberCollection>
+                      <RegistrationNumber>
+                        <Type>
+                          <Code>LSC</Code>
+                          <Description>Legacy System Code</Description>
+                        </Type>
+                        <CountryOfIssue>
+                          <Code>CN</Code>
+                          <Name>China</Name>
+                        </CountryOfIssue>
+                        <Value>62842</Value>
+                      </RegistrationNumber>
+                      <RegistrationNumber>
+                        <Type>
+                          <Code>CBN</Code>
+                          <Description>CBP Assigned Number</Description>
+                        </Type>
+                        <CountryOfIssue>
+                          <Code>US</Code>
+                          <Name>United States</Name>
+                        </CountryOfIssue>
+                        <Value>171704-11761</Value>
+                      </RegistrationNumber>
+                    </RegistrationNumberCollection>
+                  </OrganizationAddress>
+                  <OrganizationAddress>
+                    <AddressType>ImportBroker</AddressType>
+                    <Address1>650 N SAM HOUSTON PKWY E STE 209</Address1>
+                    <Address2></Address2>
+                    <AddressOverride>false</AddressOverride>
+                    <AddressShortCode>650 N SAM HOUSTON PKWY E</AddressShortCode>
+                    <City>HOUSTON</City>
+                    <CompanyName>DE WELL 97 CHB</CompanyName>
+                    <Country>
+                      <Code>US</Code>
+                      <Name>United States</Name>
+                    </Country>
+                    <Email></Email>
+                    <Fax>+12818206810</Fax>
+                    <GovRegNum>37-1503703</GovRegNum>
+                    <GovRegNumType>
+                      <Code>EIN</Code>
+                      <Description>Employer Identification Number</Description>
+                    </GovRegNumType>
+                    <OrganizationCode>DEWELL97CHB</OrganizationCode>
+                    <Phone>+12818206800</Phone>
+                    <Port>
+                      <Code>USHOU</Code>
+                      <Name>Houston</Name>
+                    </Port>
+                    <Postcode>77060</Postcode>
+                    <ScreeningStatus>
+                      <Code>UNK</Code>
+                      <Description>Unknown</Description>
+                    </ScreeningStatus>
+                    <State>TX</State>
+                  </OrganizationAddress>
+                  <OrganizationAddress>
+                    <AddressType>DeliveryLocalCartage</AddressType>
+                    <Address1>2201 LONG PRAIRIE RD</Address1>
+                    <Address2></Address2>
+                    <AddressOverride>false</AddressOverride>
+                    <AddressShortCode>2201 LONG PRAIRIE RD</AddressShortCode>
+                    <City>FLOWER MOUND</City>
+                    <CompanyName>AJ &amp; K TRANSPORT, INC</CompanyName>
+                    <Country>
+                      <Code>US</Code>
+                      <Name>United States</Name>
+                    </Country>
+                    <Email>MATT@AJKTRANSPORT.COM</Email>
+                    <Fax></Fax>
+                    <OrganizationCode>TR_AJKTRANSP</OrganizationCode>
+                    <Phone></Phone>
+                    <Port>
+                      <Code>USHCO</Code>
+                      <Name>Hickory Creek</Name>
+                    </Port>
+                    <Postcode>75022</Postcode>
+                    <ScreeningStatus>
+                      <Code>NOT</Code>
+                      <Description>Not Screened</Description>
+                    </ScreeningStatus>
+                    <State>TX</State>
+                  </OrganizationAddress>
+                </OrganizationAddressCollection>
+
+                <PackingLineCollection Content="Complete">
+                  <PackingLine>
+                    <Commodity>
+                      <Code>GEN</Code>
+                      <Description>General</Description>
+                    </Commodity>
+                    <ContainerLink>1</ContainerLink>
+                    <ContainerNumber>MEDU8274525</ContainerNumber>
+                    <ContainerPackingOrder>1</ContainerPackingOrder>
+                    <CountryOfOrigin>
+                      <Code></Code>
+                    </CountryOfOrigin>
+                    <DetailedDescription></DetailedDescription>
+                    <EndItemNo>0</EndItemNo>
+                    <ExportReferenceNumber></ExportReferenceNumber>
+                    <GoodsDescription></GoodsDescription>
+                    <HarmonisedCode></HarmonisedCode>
+                    <Height>0.000</Height>
+                    <ImportReferenceNumber></ImportReferenceNumber>
+                    <ItemNo>0</ItemNo>
+                    <Length>0.000</Length>
+                    <LengthUnit>
+                      <Code>M</Code>
+                      <Description>Metres</Description>
+                    </LengthUnit>
+                    <LinePrice>0.0000</LinePrice>
+                    <Link>1</Link>
+                    <LoadingMeters>0.000</LoadingMeters>
+                    <MarksAndNos></MarksAndNos>
+                    <OutturnComment></OutturnComment>
+                    <OutturnDamagedQty>0</OutturnDamagedQty>
+                    <OutturnedHeight>0.000</OutturnedHeight>
+                    <OutturnedLength>0.000</OutturnedLength>
+                    <OutturnedVolume>0.000</OutturnedVolume>
+                    <OutturnedWeight>0.000</OutturnedWeight>
+                    <OutturnedWidth>0.000</OutturnedWidth>
+                    <OutturnPillagedQty>0</OutturnPillagedQty>
+                    <OutturnQty>0</OutturnQty>
+                    <PackQty>2629</PackQty>
+                    <PackType>
+                      <Code>CTN</Code>
+                      <Description>Carton</Description>
+                    </PackType>
+                    <ReferenceNumber></ReferenceNumber>
+                    <Volume>64.040</Volume>
+                    <VolumeUnit>
+                      <Code>M3</Code>
+                      <Description>Cubic Metres</Description>
+                    </VolumeUnit>
+                    <Weight>8298.610</Weight>
+                    <WeightUnit>
+                      <Code>KG</Code>
+                      <Description>Kilograms</Description>
+                    </WeightUnit>
+                    <Width>0.000</Width>
+
+                    <CustomizedFieldCollection>
+                      <CustomizedField>
+                        <DataType>String</DataType>
+                        <Key>FBA No.</Key>
+                        <Value></Value>
+                      </CustomizedField>
+                      <CustomizedField>
+                        <DataType>String</DataType>
+                        <Key>PO No.</Key>
+                        <Value></Value>
+                      </CustomizedField>
+                      <CustomizedField>
+                        <DataType>String</DataType>
+                        <Key>Remarks</Key>
+                        <Value></Value>
+                      </CustomizedField>
+                      <CustomizedField>
+                        <DataType>Decimal</DataType>
+                        <Key>Actual Pallets</Key>
+                        <Value>0.000</Value>
+                      </CustomizedField>
+                      <CustomizedField>
+                        <DataType>Decimal</DataType>
+                        <Key>Actual Piece</Key>
+                        <Value>0.000</Value>
+                      </CustomizedField>
+                    </CustomizedFieldCollection>
+
+                    <PackedItemCollection>
+                    </PackedItemCollection>
+                  </PackingLine>
+                </PackingLineCollection>
+
+                <TransportLegCollection Content="Complete">
+                  <TransportLeg>
+                    <PortOfDischarge>
+                      <Code>USLAX</Code>
+                      <Name>Los Angeles</Name>
+                    </PortOfDischarge>
+                    <PortOfLoading>
+                      <Code>CNYTN</Code>
+                      <Name>Yantian</Name>
+                    </PortOfLoading>
+                    <LegOrder>1</LegOrder>
+                    <ActualArrival></ActualArrival>
+                    <ActualArrivalInPortOfLoading></ActualArrivalInPortOfLoading>
+                    <ActualDeparture>2019-12-24T08:00:00</ActualDeparture>
+                    <AircraftType>
+                      <Code></Code>
+                    </AircraftType>
+                    <ArrivalBerth></ArrivalBerth>
+                    <ArrivalReference></ArrivalReference>
+                    <Carrier>
+                      <AddressType>Carrier</AddressType>
+                      <Address1>S.A. CHEMIN RIEU 12-14</Address1>
+                      <Address2></Address2>
+                      <AddressOverride>false</AddressOverride>
+                      <AddressShortCode>S.A. CHEMIN RIEU 12-14</AddressShortCode>
+                      <City>GENEVA</City>
+                      <CompanyName>MEDITERRANEAN SHIPPING COMPANY</CompanyName>
+                      <Country>
+                        <Code>CH</Code>
+                        <Name>Switzerland</Name>
+                      </Country>
+                      <Email></Email>
+                      <Fax></Fax>
+                      <OrganizationCode>MSC_WW</OrganizationCode>
+                      <Phone></Phone>
+                      <Port>
+                        <Code>CHGVA</Code>
+                        <Name>Geneve</Name>
+                      </Port>
+                      <Postcode>1208</Postcode>
+                      <ScreeningStatus>
+                        <Code>UNK</Code>
+                        <Description>Unknown</Description>
+                      </ScreeningStatus>
+                      <State>GE</State>
+
+                      <RegistrationNumberCollection>
+                        <RegistrationNumber>
+                          <Type>
+                            <Code>CCC</Code>
+                            <Description>Standard Carrier Alpha Code (Sea)</Description>
+                          </Type>
+                          <CountryOfIssue>
+                            <Code>US</Code>
+                            <Name>United States</Name>
+                          </CountryOfIssue>
+                          <Value>MEDU</Value>
+                        </RegistrationNumber>
+                      </RegistrationNumberCollection>
+                    </Carrier>
+                    <CarrierBookingReference></CarrierBookingReference>
+                    <CarrierServiceLevel>
+                      <Code></Code>
+                    </CarrierServiceLevel>
+                    <DepartureBerth></DepartureBerth>
+                    <DepartureReference></DepartureReference>
+                    <DocumentCutOff></DocumentCutOff>
+                    <EstimatedArrival>2020-01-10T06:00:00</EstimatedArrival>
+                    <EstimatedArrivalInPortOfLoading></EstimatedArrivalInPortOfLoading>
+                    <EstimatedDeparture>2019-12-23T00:00:00</EstimatedDeparture>
+                    <FCLAvailability></FCLAvailability>
+                    <FCLCutOff></FCLCutOff>
+                    <FCLReceivalCommences></FCLReceivalCommences>
+                    <FCLStorage></FCLStorage>
+                    <HazzardCutOffDate></HazzardCutOffDate>
+                    <HazzardReceivalCommences></HazzardReceivalCommences>
+                    <IsCargoOnly>true</IsCargoOnly>
+                    <LCLAvailability></LCLAvailability>
+                    <LCLCutOff></LCLCutOff>
+                    <LCLReceivalCommences></LCLReceivalCommences>
+                    <LCLStorageDate></LCLStorageDate>
+                    <LegNotes></LegNotes>
+                    <LegType>Main</LegType>
+                    <TransportMode>Sea</TransportMode>
+                    <VesselLloydsIMO>9399026</VesselLloydsIMO>
+                    <VesselName>MSC KALINA</VesselName>
+                    <VGMCutOff></VGMCutOff>
+                    <VoyageFlightNo>QH951N</VoyageFlightNo>
+                  </TransportLeg>
+                  <TransportLeg>
+                    <PortOfDischarge>
+                      <Code>USDAL</Code>
+                      <Name>Dallas</Name>
+                    </PortOfDischarge>
+                    <PortOfLoading>
+                      <Code>USLAX</Code>
+                      <Name>Los Angeles</Name>
+                    </PortOfLoading>
+                    <LegOrder>2</LegOrder>
+                    <ActualArrival></ActualArrival>
+                    <ActualDeparture></ActualDeparture>
+                    <AircraftType>
+                      <Code></Code>
+                    </AircraftType>
+                    <CarrierBookingReference></CarrierBookingReference>
+                    <CarrierServiceLevel>
+                      <Code></Code>
+                    </CarrierServiceLevel>
+                    <EstimatedArrival>2020-01-17T16:22:00</EstimatedArrival>
+                    <EstimatedDeparture>2020-01-10T16:22:00</EstimatedDeparture>
+                    <LegNotes></LegNotes>
+                    <LegType>Other</LegType>
+                    <TransportMode>Rail</TransportMode>
+                    <VesselLloydsIMO></VesselLloydsIMO>
+                    <VesselName></VesselName>
+                    <VoyageFlightNo></VoyageFlightNo>
+                  </TransportLeg>
+                </TransportLegCollection>
+              </SubShipment>
+            </SubShipmentCollection>
+
+            <TransportLegCollection Content="Complete">
+              <TransportLeg>
+                <PortOfDischarge>
+                  <Code>USLAX</Code>
+                  <Name>Los Angeles</Name>
+                </PortOfDischarge>
+                <PortOfLoading>
+                  <Code>CNYTN</Code>
+                  <Name>Yantian</Name>
+                </PortOfLoading>
+                <LegOrder>1</LegOrder>
+                <ActualArrival></ActualArrival>
+                <ActualArrivalInPortOfLoading></ActualArrivalInPortOfLoading>
+                <ActualDeparture>2019-12-24T08:00:00</ActualDeparture>
+                <AircraftType>
+                  <Code></Code>
+                </AircraftType>
+                <ArrivalBerth></ArrivalBerth>
+                <ArrivalReference></ArrivalReference>
+                <Carrier>
+                  <AddressType>Carrier</AddressType>
+                  <Address1>S.A. CHEMIN RIEU 12-14</Address1>
+                  <Address2></Address2>
+                  <AddressOverride>false</AddressOverride>
+                  <AddressShortCode>S.A. CHEMIN RIEU 12-14</AddressShortCode>
+                  <City>GENEVA</City>
+                  <CompanyName>MEDITERRANEAN SHIPPING COMPANY</CompanyName>
+                  <Country>
+                    <Code>CH</Code>
+                    <Name>Switzerland</Name>
+                  </Country>
+                  <Email></Email>
+                  <Fax></Fax>
+                  <OrganizationCode>MSC_WW</OrganizationCode>
+                  <Phone></Phone>
+                  <Port>
+                    <Code>CHGVA</Code>
+                    <Name>Geneve</Name>
+                  </Port>
+                  <Postcode>1208</Postcode>
+                  <ScreeningStatus>
+                    <Code>UNK</Code>
+                    <Description>Unknown</Description>
+                  </ScreeningStatus>
+                  <State>GE</State>
+
+                  <RegistrationNumberCollection>
+                    <RegistrationNumber>
+                      <Type>
+                        <Code>CCC</Code>
+                        <Description>Standard Carrier Alpha Code (Sea)</Description>
+                      </Type>
+                      <CountryOfIssue>
+                        <Code>US</Code>
+                        <Name>United States</Name>
+                      </CountryOfIssue>
+                      <Value>MEDU</Value>
+                    </RegistrationNumber>
+                  </RegistrationNumberCollection>
+                </Carrier>
+                <CarrierBookingReference></CarrierBookingReference>
+                <CarrierServiceLevel>
+                  <Code></Code>
+                </CarrierServiceLevel>
+                <DepartureBerth></DepartureBerth>
+                <DepartureReference></DepartureReference>
+                <DocumentCutOff></DocumentCutOff>
+                <EstimatedArrival>2020-01-10T06:00:00</EstimatedArrival>
+                <EstimatedArrivalInPortOfLoading></EstimatedArrivalInPortOfLoading>
+                <EstimatedDeparture>2019-12-23T00:00:00</EstimatedDeparture>
+                <FCLAvailability></FCLAvailability>
+                <FCLCutOff></FCLCutOff>
+                <FCLReceivalCommences></FCLReceivalCommences>
+                <FCLStorage></FCLStorage>
+                <HazzardCutOffDate></HazzardCutOffDate>
+                <HazzardReceivalCommences></HazzardReceivalCommences>
+                <IsCargoOnly>true</IsCargoOnly>
+                <LCLAvailability></LCLAvailability>
+                <LCLCutOff></LCLCutOff>
+                <LCLReceivalCommences></LCLReceivalCommences>
+                <LCLStorageDate></LCLStorageDate>
+                <LegNotes></LegNotes>
+                <LegType>Main</LegType>
+                <TransportMode>Sea</TransportMode>
+                <VesselLloydsIMO>9399026</VesselLloydsIMO>
+                <VesselName>MSC KALINA</VesselName>
+                <VGMCutOff></VGMCutOff>
+                <VoyageFlightNo>QH951N</VoyageFlightNo>
+              </TransportLeg>
+              <TransportLeg>
+                <PortOfDischarge>
+                  <Code>USDAL</Code>
+                  <Name>Dallas</Name>
+                </PortOfDischarge>
+                <PortOfLoading>
+                  <Code>USLAX</Code>
+                  <Name>Los Angeles</Name>
+                </PortOfLoading>
+                <LegOrder>2</LegOrder>
+                <ActualArrival></ActualArrival>
+                <ActualDeparture></ActualDeparture>
+                <AircraftType>
+                  <Code></Code>
+                </AircraftType>
+                <CarrierBookingReference></CarrierBookingReference>
+                <CarrierServiceLevel>
+                  <Code></Code>
+                </CarrierServiceLevel>
+                <EstimatedArrival>2020-01-17T16:22:00</EstimatedArrival>
+                <EstimatedDeparture>2020-01-10T16:22:00</EstimatedDeparture>
+                <LegNotes></LegNotes>
+                <LegType>Other</LegType>
+                <TransportMode>Rail</TransportMode>
+                <VesselLloydsIMO></VesselLloydsIMO>
+                <VesselName></VesselName>
+                <VoyageFlightNo></VoyageFlightNo>
+              </TransportLeg>
+            </TransportLegCollection>
+          </Shipment>
+        </ShipmentCollection>
+      </TransactionInfo>
+    </UniversalTransaction>
+  </Body>
+</UniversalInterchange>
